@@ -7,11 +7,11 @@
       "definitionId": null,
       "name": "Unarmed Strike",
       "kind": "action",
-      "modes": { "combat": 5 },
+      "modes": { "combat": null },
       "action": "action",
       "tags": ["attack"],
       "source": "hand",
-      "note": "The thing DDB opens on and nobody plans a turn around."
+      "note": "Drawer: the thing DDB opens on and nobody plans a turn around. Still one tap away."
     },
     {
       "definitionId": null,
@@ -108,10 +108,11 @@
       "definitionId": null,
       "name": "Improvised Weapon",
       "kind": "action",
-      "modes": { "combat": 5 },
+      "modes": { "combat": null },
       "action": "action",
       "tags": ["attack"],
-      "source": "hand"
+      "source": "hand",
+      "note": "Drawer until the table makes it matter."
     }
   ]
 }
