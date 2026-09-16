@@ -15,8 +15,9 @@ entry means "ranked by the sheet alone", never "dropped".
   `cleric.json`, `warlock.json`, `wizard.json`.
 - **Class features** have no definition id in what Playbook reads, so they're keyed by name — the exact
   name DDB shows, curly apostrophes included.
-- **Not yet covered:** Battle Master maneuvers (no character with them has been captured), and spells
-  only on other classes' lists.
+- **Not yet covered:** Battle Master maneuvers other than the nine on the captured character, weapon
+  mastery actions (DDB names them per weapon, e.g. "Graze (Greatsword)"), and spells only on other
+  classes' lists.
 - `source: "llm"` marks entries drafted with an LLM from real character data and not yet reviewed by a
   person. Review turns them into `"hand"`.
 

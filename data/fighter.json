@@ -1,7 +1,7 @@
 {
   "schemaVersion": 0,
   "name": "Fighter",
-  "description": "Fighter class features. Battle Master maneuvers wait for a fixture that has them.",
+  "description": "Fighter class features, 2014 and 2024, including the Battle Master maneuvers found on a captured character. Weapon mastery actions are not tagged yet.",
   "entries": [
     {
       "definitionId": null,
@@ -61,6 +61,212 @@
     },
     {
       "definitionId": null,
+      "name": "Know Your Enemy",
+      "kind": "action",
+      "modes": {
+        "combat": 30
+      },
+      "action": "bonus",
+      "tags": [
+        "knowledge",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Ambush",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "utility",
+        "limited-use"
+      ],
+      "source": "llm",
+      "note": "Used on stealth and initiative rolls, not on a turn."
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Bait and Switch",
+      "kind": "action",
+      "modes": {
+        "combat": 30
+      },
+      "action": "none",
+      "tags": [
+        "defensive",
+        "movement",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Commander’s Strike",
+      "kind": "action",
+      "modes": {
+        "combat": 45
+      },
+      "action": "action",
+      "tags": [
+        "buff",
+        "limited-use"
+      ],
+      "source": "llm",
+      "note": "Trades one of your attacks for an ally's — strong with a rogue or paladin nearby."
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Commanding Presence",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "social",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Disarming Attack (Dex.)",
+      "kind": "action",
+      "modes": {
+        "combat": 50
+      },
+      "action": "free",
+      "tags": [
+        "control",
+        "rider"
+      ],
+      "source": "llm",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "die"
+      }
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Disarming Attack (Str.)",
+      "kind": "action",
+      "modes": {
+        "combat": 50
+      },
+      "action": "free",
+      "tags": [
+        "control",
+        "rider"
+      ],
+      "source": "llm",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "die"
+      }
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Distracting Strike",
+      "kind": "action",
+      "modes": {
+        "combat": 60
+      },
+      "action": "free",
+      "tags": [
+        "buff",
+        "rider"
+      ],
+      "source": "llm",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "die"
+      },
+      "note": "Sets up an ally's hit; a good default use of a die."
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Evasive Footwork",
+      "kind": "action",
+      "modes": {
+        "combat": 45
+      },
+      "action": "bonus",
+      "tags": [
+        "defensive",
+        "movement",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Feinting Attack",
+      "kind": "action",
+      "modes": {
+        "combat": 60
+      },
+      "action": "bonus",
+      "tags": [
+        "buff",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Goading Attack (Dex.)",
+      "kind": "action",
+      "modes": {
+        "combat": 58
+      },
+      "action": "free",
+      "tags": [
+        "control",
+        "rider"
+      ],
+      "source": "llm",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "die"
+      }
+    },
+    {
+      "definitionId": null,
+      "name": "Maneuver: Goading Attack (Str.)",
+      "kind": "action",
+      "modes": {
+        "combat": 58
+      },
+      "action": "free",
+      "tags": [
+        "control",
+        "rider"
+      ],
+      "source": "llm",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "die"
+      }
+    },
+    {
+      "definitionId": null,
+      "name": "Relentless",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
       "name": "Second Wind",
       "kind": "action",
       "modes": {
@@ -69,6 +275,113 @@
       "action": "bonus",
       "tags": [
         "heal",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Second Wind: Tactical Shift",
+      "kind": "action",
+      "modes": {
+        "combat": 40
+      },
+      "action": "bonus",
+      "tags": [
+        "movement"
+      ],
+      "source": "llm",
+      "note": "Comes with Second Wind rather than being its own choice."
+    },
+    {
+      "definitionId": null,
+      "name": "Studied Attacks",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Superiority Dice",
+      "kind": "action",
+      "modes": {
+        "combat": 65
+      },
+      "action": "none",
+      "tags": [
+        "limited-use"
+      ],
+      "source": "llm",
+      "note": "Holds the dice every maneuver spends; sits right after the weapons so the pips stay in view."
+    },
+    {
+      "definitionId": null,
+      "name": "Tactical Master",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Tactical Master: Push",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Tactical Master: Sap",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Tactical Master: Slow",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Tactical Mind",
+      "kind": "action",
+      "modes": {
+        "combat": 20
+      },
+      "action": "free",
+      "tags": [
+        "utility",
         "limited-use"
       ],
       "source": "llm"
