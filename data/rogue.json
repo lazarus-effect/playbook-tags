@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 0,
+  "name": "Rogue",
+  "description": "Rogue class features. Arcane Trickster spells are in wizard.json.",
+  "entries": [
+    {
+      "definitionId": null,
+      "name": "Cunning Action",
+      "kind": "action",
+      "modes": {
+        "combat": 75
+      },
+      "action": "bonus",
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Reliable Talent",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Sneak Attack",
+      "kind": "action",
+      "modes": {
+        "combat": 65
+      },
+      "action": "free",
+      "tags": [
+        "attack"
+      ],
+      "source": "llm",
+      "note": "Not a separate turn, but the rogue plans every attack around it — sits just after the weapon."
+    },
+    {
+      "definitionId": null,
+      "name": "Steady Aim",
+      "kind": "action",
+      "modes": {
+        "combat": 50
+      },
+      "action": "bonus",
+      "tags": [
+        "buff"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Uncanny Dodge",
+      "kind": "action",
+      "modes": {
+        "combat": 80
+      },
+      "action": "reaction",
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm",
+      "note": "Halves a big hit; the rogue's main defense."
+    }
+  ]
+}

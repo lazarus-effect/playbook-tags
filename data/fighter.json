@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 0,
+  "name": "Fighter",
+  "description": "Fighter class features. Battle Master maneuvers wait for a fixture that has them.",
+  "entries": [
+    {
+      "definitionId": null,
+      "name": "Action Surge",
+      "kind": "action",
+      "modes": {
+        "combat": 90
+      },
+      "action": "free",
+      "tags": [
+        "buff",
+        "limited-use"
+      ],
+      "source": "llm",
+      "note": "A whole extra action — the fighter's biggest turn."
+    },
+    {
+      "definitionId": null,
+      "name": "Extra Attack",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm",
+      "note": "Already counted in the attack row."
+    },
+    {
+      "definitionId": null,
+      "name": "Fighting Style: Protection",
+      "kind": "action",
+      "modes": {
+        "combat": 45
+      },
+      "action": "reaction",
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Indomitable",
+      "kind": "action",
+      "modes": {
+        "combat": 50
+      },
+      "action": "free",
+      "tags": [
+        "defensive",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Second Wind",
+      "kind": "action",
+      "modes": {
+        "combat": 55
+      },
+      "action": "bonus",
+      "tags": [
+        "heal",
+        "limited-use"
+      ],
+      "source": "llm"
+    }
+  ]
+}

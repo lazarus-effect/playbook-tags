@@ -46,7 +46,13 @@ data/*.json               the tags, one file per class or theme
 - `recharge` — `short` · `long` · `dawn` · `charges` · `none`.
 - `tags` — attack, control, buff, heal, utility, defensive, movement, social, knowledge, ritual,
   concentration, passive, limited-use, rider, toggle.
-- `source` — `hand`, `heuristic`, or `llm`. Hand-curated entries win.
+- `source` — `hand`, `heuristic`, or `llm` (drafted with an LLM, awaiting review). Informational: any
+  entry in this repo wins over Playbook's runtime heuristics.
+
+## Releases
+
+Playbook ships a pinned release of this repository: a git tag (`v0.1.0`, …). The extension copies
+`data/*.json` from that tag and records the tag and commit; its tests fail if the copies drift.
 
 Full field list, including `toggle` and `rider`: [`schema/tags.schema.json`](schema/tags.schema.json).
 

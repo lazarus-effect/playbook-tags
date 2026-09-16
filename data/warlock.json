@@ -1,0 +1,1359 @@
+{
+  "schemaVersion": 0,
+  "name": "Warlock",
+  "description": "Warlock class features and warlock-list spells not already in cleric.json, 2014 and 2024 ids.",
+  "entries": [
+    {
+      "definitionId": null,
+      "name": "Awakened Mind",
+      "kind": "action",
+      "modes": {
+        "combat": 10
+      },
+      "action": "bonus",
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Awakened Mind: Clairvoyant Combatant",
+      "kind": "action",
+      "modes": {
+        "combat": 50
+      },
+      "action": "bonus",
+      "tags": [
+        "control",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Dark One’s Blessing",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Dark One’s Own Luck",
+      "kind": "action",
+      "modes": {
+        "combat": 45
+      },
+      "action": "free",
+      "tags": [
+        "buff",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Eldritch Master",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "utility",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Fiendish Resilience",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Gaze of Two Minds: Perceive Senses",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "bonus",
+      "tags": [
+        "knowledge"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Hex Warrior",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "passive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Hexblade’s Curse",
+      "kind": "action",
+      "modes": {
+        "combat": 80
+      },
+      "action": "bonus",
+      "tags": [
+        "attack",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Hurl Through Hell",
+      "kind": "action",
+      "modes": {
+        "combat": 60
+      },
+      "action": "free",
+      "tags": [
+        "attack",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "Magical Cunning",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "none",
+      "tags": [
+        "utility",
+        "limited-use"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": null,
+      "name": "One with Shadows",
+      "kind": "action",
+      "modes": {
+        "combat": null
+      },
+      "action": "action",
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2358",
+      "name": "Arcane Gate",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2310",
+      "name": "Armor of Agathys",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2017",
+      "name": "Blight",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14758",
+      "name": "Cause Fear",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14763",
+      "name": "Charm Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 25
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2025",
+      "name": "Charm Person",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618964",
+      "name": "Charm Person",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2026",
+      "name": "Chill Touch",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2027",
+      "name": "Circle of Death",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2327",
+      "name": "Cloud of Daggers",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2035",
+      "name": "Comprehend Languages",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618993",
+      "name": "Comprehend Languages",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2045",
+      "name": "Contact Other Plane",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619052",
+      "name": "Contact Other Plane",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2051",
+      "name": "Counterspell",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm",
+      "note": "Reaction that decides fights; keep it visible."
+    },
+    {
+      "definitionId": "2373",
+      "name": "Create Bonfire",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2329",
+      "name": "Crown of Madness",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14827",
+      "name": "Crown of Stars",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14830",
+      "name": "Danse Macabre",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2058",
+      "name": "Darkness",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619080",
+      "name": "Darkness",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2063",
+      "name": "Demiplane",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619088",
+      "name": "Demiplane",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2068",
+      "name": "Dimension Door",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619104",
+      "name": "Dissonant Whispers",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2077",
+      "name": "Dominate Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2079",
+      "name": "Dream",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2082",
+      "name": "Eldritch Blast",
+      "kind": "spell",
+      "modes": {
+        "combat": 95
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm",
+      "note": "The warlock's main attack most turns."
+    },
+    {
+      "definitionId": "2619161",
+      "name": "Eldritch Blast",
+      "kind": "spell",
+      "modes": {
+        "combat": 95
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm",
+      "note": "The warlock's main attack most turns."
+    },
+    {
+      "definitionId": "2379",
+      "name": "Elemental Bane",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "buff",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14869",
+      "name": "Enervation",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2086",
+      "name": "Enthrall",
+      "kind": "spell",
+      "modes": {
+        "combat": 15
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2088",
+      "name": "Expeditious Retreat",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2089",
+      "name": "Eyebite",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14870",
+      "name": "Far Step",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2094",
+      "name": "Fear",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2096",
+      "name": "Feeblemind",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2101",
+      "name": "Finger of Death",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2109",
+      "name": "Flesh to Stone",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2111",
+      "name": "Fly",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2114",
+      "name": "Forcecage",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2115",
+      "name": "Foresight",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "buff"
+      ],
+      "source": "llm",
+      "note": "Cast ahead of the fight; too slow mid-combat."
+    },
+    {
+      "definitionId": "2382",
+      "name": "Frostbite",
+      "kind": "spell",
+      "modes": {
+        "combat": 72
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2118",
+      "name": "Gaseous Form",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2136",
+      "name": "Hallucinatory Terrain",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2142",
+      "name": "Hellish Rebuke",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619149",
+      "name": "Hellish Rebuke",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2317",
+      "name": "Hex",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm",
+      "note": "Bonus-action damage on every hit; the warlock's usual concentration."
+    },
+    {
+      "definitionId": "2618988",
+      "name": "Hex",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm",
+      "note": "Bonus-action damage on every hit; the warlock's usual concentration."
+    },
+    {
+      "definitionId": "2146",
+      "name": "Hold Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619162",
+      "name": "Hunger of Hadar",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control",
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2150",
+      "name": "Hypnotic Pattern",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2153",
+      "name": "Illusory Script",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2154",
+      "name": "Imprisonment",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14877",
+      "name": "Infernal Calling",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2159",
+      "name": "Invisibility",
+      "kind": "spell",
+      "modes": {
+        "combat": 35
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14881",
+      "name": "Maddening Darkness",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2173",
+      "name": "Mage Hand",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619008",
+      "name": "Mage Hand",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2180",
+      "name": "Major Image",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2184",
+      "name": "Mass Suggestion",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14883",
+      "name": "Mental Prison",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619037",
+      "name": "Mind Sliver",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack",
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14482",
+      "name": "Mind Spike",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2191",
+      "name": "Minor Illusion",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2193",
+      "name": "Mirror Image",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2195",
+      "name": "Misty Step",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm",
+      "note": "Bonus-action escape; almost always worth having on screen."
+    },
+    {
+      "definitionId": "14519",
+      "name": "Negative Energy Flood",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2210",
+      "name": "Power Word Kill",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14520",
+      "name": "Power Word Pain",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2211",
+      "name": "Power Word Stun",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2213",
+      "name": "Prestidigitation",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618893",
+      "name": "Prestidigitation",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14592",
+      "name": "Psychic Scream",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack",
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2225",
+      "name": "Ray of Enfeeblement",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14593",
+      "name": "Scatter",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "control",
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14595",
+      "name": "Shadow Blade",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2246",
+      "name": "Shatter",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14597",
+      "name": "Sickening Radiance",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14601",
+      "name": "Soul Cage",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2261",
+      "name": "Spider Climb",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2269",
+      "name": "Suggestion",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619105",
+      "name": "Summon Aberration",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14603",
+      "name": "Summon Greater Demon",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14604",
+      "name": "Summon Lesser Demons",
+      "kind": "spell",
+      "modes": {
+        "combat": 35
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14605",
+      "name": "Synaptic Static",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14613",
+      "name": "Thunder Step",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "movement",
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2284",
+      "name": "True Polymorph",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619198",
+      "name": "True Polymorph",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2286",
+      "name": "True Seeing",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2288",
+      "name": "Unseen Servant",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2289",
+      "name": "Vampiric Touch",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "heal",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14616",
+      "name": "Wall of Light",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2323",
+      "name": "Witch Bolt",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    }
+  ]
+}
