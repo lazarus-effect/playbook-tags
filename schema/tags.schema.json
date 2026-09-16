@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lazarus-effect/playbook-tags/schema/tags.schema.json",
+  "title": "Playbook tag database v0",
+  "description": "Playbook's opinions about what each spell, feature, action, and item is FOR at the table. Metadata only: ids, names, and Playbook opinions. No rules text, descriptions, or any other publisher content.",
+  "type": "object",
+  "required": ["schemaVersion", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 0 },
+    "name": { "type": "string", "maxLength": 80 },
+    "description": { "type": "string", "maxLength": 300 },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "description": "One tagged thing. `definitionId` is DDB's definition id and is the key; `name` is a human label and the fallback key for homebrew.",
+      "required": ["kind", "name", "modes"],
+      "additionalProperties": false,
+      "properties": {
+        "definitionId": { "type": ["string", "null"], "pattern": "^[0-9]+$" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "kind": { "enum": ["spell", "action", "item", "feature"] },
+        "modes": {
+          "type": "object",
+          "description": "Priority 0-100 per mode; null means the drawer in that mode. Explore is Phase 2 but may be filled in early.",
+          "additionalProperties": false,
+          "required": ["combat"],
+          "properties": {
+            "combat": { "$ref": "#/$defs/priority" },
+            "explore": { "$ref": "#/$defs/priority" }
+          }
+        },
+        "action": { "enum": ["action", "bonus", "reaction", "free", "none"] },
+        "recharge": { "enum": ["short", "long", "dawn", "charges", "none"] },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["attack", "control", "buff", "heal", "utility", "defensive", "movement", "social", "knowledge", "ritual", "concentration", "passive", "limited-use", "rider", "toggle"]
+          }
+        },
+        "toggle": {
+          "type": "object",
+          "description": "Only when tags include \"toggle\".",
+          "additionalProperties": false,
+          "required": ["affects"],
+          "properties": {
+            "affects": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "enum": ["attack", "damage", "ac", "save", "check", "speed"] }
+            },
+            "value": { "type": "string", "maxLength": 20, "pattern": "^[+-]?[0-9]*(d[0-9]+)?([+-][0-9]+)?$" },
+            "scope": { "enum": ["self", "ally", "target"] }
+          }
+        },
+        "rider": {
+          "type": "object",
+          "description": "Only when tags include \"rider\".",
+          "additionalProperties": false,
+          "required": ["attachesTo"],
+          "properties": {
+            "attachesTo": { "enum": ["melee", "ranged", "weapon", "spell"] },
+            "dice": { "type": "string", "maxLength": 20, "pattern": "^[0-9]*d[0-9]+([+-][0-9]+)?$" },
+            "consumes": { "enum": ["slot", "die", "use", "none"] }
+          }
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Why this opinion, in Playbook's own words. Never rules text copied from a book."
+        },
+        "source": {
+          "enum": ["hand", "heuristic", "llm"],
+          "description": "How this entry was produced (PRD 9.2). Hand-curated entries win."
+        }
+      }
+    },
+    "priority": {
+      "description": "0-100: how much room this deserves in that mode. null = drawer.",
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 100
+    }
+  }
+}
