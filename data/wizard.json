@@ -922,6 +922,20 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619150",
+      "name": "Dragon's Breath",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "buff",
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2359",
       "name": "Drawmij's Instant Summons",
       "kind": "spell",
@@ -2817,6 +2831,19 @@
     },
     {
       "definitionId": "2247",
+      "name": "Shield",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm",
+      "note": "Reaction that turns hits into misses; keep it on screen."
+    },
+    {
+      "definitionId": "2619019",
       "name": "Shield",
       "kind": "spell",
       "modes": {

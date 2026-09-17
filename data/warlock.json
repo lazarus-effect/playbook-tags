@@ -1339,6 +1339,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618926",
+      "name": "Ray of Enfeeblement",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14593",
       "name": "Scatter",
       "kind": "spell",
