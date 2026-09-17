@@ -503,6 +503,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618966",
+      "name": "Chromatic Orb",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2029",
       "name": "Clone",
       "kind": "spell",
