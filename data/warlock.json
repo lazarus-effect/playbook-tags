@@ -529,6 +529,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619147",
+      "name": "Dominate Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2079",
       "name": "Dream",
       "kind": "spell",

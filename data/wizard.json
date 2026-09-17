@@ -882,6 +882,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619094",
+      "name": "Disintegrate",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2078",
       "name": "Dominate Person",
       "kind": "spell",
@@ -1066,6 +1078,19 @@
     },
     {
       "definitionId": "2344",
+      "name": "Evard's Black Tentacles",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619187",
       "name": "Evard's Black Tentacles",
       "kind": "spell",
       "modes": {
@@ -1379,6 +1404,19 @@
     },
     {
       "definitionId": "2124",
+      "name": "Globe of Invulnerability",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618950",
       "name": "Globe of Invulnerability",
       "kind": "spell",
       "modes": {
@@ -2583,6 +2621,19 @@
     },
     {
       "definitionId": "2356",
+      "name": "Rary's Telepathic Bond",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618925",
       "name": "Rary's Telepathic Bond",
       "kind": "spell",
       "modes": {
