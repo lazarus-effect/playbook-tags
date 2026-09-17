@@ -491,6 +491,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619100",
+      "name": "Dimension Door",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2619104",
       "name": "Dissonant Whispers",
       "kind": "spell",
@@ -899,6 +911,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619152",
+      "name": "Hold Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2619162",
       "name": "Hunger of Hadar",
       "kind": "spell",
@@ -914,6 +939,19 @@
     },
     {
       "definitionId": "2150",
+      "name": "Hypnotic Pattern",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619168",
       "name": "Hypnotic Pattern",
       "kind": "spell",
       "modes": {
@@ -1115,7 +1153,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619060",
+      "name": "Mirror Image",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2195",
+      "name": "Misty Step",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm",
+      "note": "Bonus-action escape; almost always worth having on screen."
+    },
+    {
+      "definitionId": "2619133",
       "name": "Misty Step",
       "kind": "spell",
       "modes": {
@@ -1141,6 +1204,18 @@
     },
     {
       "definitionId": "2210",
+      "name": "Power Word Kill",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618886",
       "name": "Power Word Kill",
       "kind": "spell",
       "modes": {

@@ -540,6 +540,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618978",
+      "name": "Color Spray",
+      "kind": "spell",
+      "modes": {
+        "combat": 35
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2037",
       "name": "Cone of Cold",
       "kind": "spell",
@@ -746,6 +758,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619058",
+      "name": "Dancing Lights",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2059",
       "name": "Darkvision",
       "kind": "spell",
@@ -846,6 +871,19 @@
     },
     {
       "definitionId": "2078",
+      "name": "Dominate Person",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619148",
       "name": "Dominate Person",
       "kind": "spell",
       "modes": {
@@ -1162,6 +1200,19 @@
     },
     {
       "definitionId": "2102",
+      "name": "Fireball",
+      "kind": "spell",
+      "modes": {
+        "combat": 90
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm",
+      "note": "The benchmark area spell; worth a slot in most big fights."
+    },
+    {
+      "definitionId": "2618887",
       "name": "Fireball",
       "kind": "spell",
       "modes": {
@@ -2178,6 +2229,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619122",
+      "name": "Nondetection",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2331",
       "name": "Nystul's Magic Aura",
       "kind": "spell",
@@ -2517,6 +2580,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619005",
+      "name": "Scorching Ray",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2240",
       "name": "Secret Chest",
       "kind": "spell",
@@ -2770,6 +2845,18 @@
     },
     {
       "definitionId": "14602",
+      "name": "Steel Wind Strike",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619087",
       "name": "Steel Wind Strike",
       "kind": "spell",
       "modes": {
