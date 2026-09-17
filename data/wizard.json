@@ -2593,6 +2593,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618935",
+      "name": "Ray of Sickness",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2230",
       "name": "Resilient Sphere",
       "kind": "spell",
