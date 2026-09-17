@@ -203,6 +203,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618934",
+      "name": "Blight",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14758",
       "name": "Cause Fear",
       "kind": "spell",
@@ -217,6 +229,18 @@
     },
     {
       "definitionId": "14763",
+      "name": "Charm Monster",
+      "kind": "spell",
+      "modes": {
+        "combat": 25
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618963",
       "name": "Charm Monster",
       "kind": "spell",
       "modes": {
@@ -582,6 +606,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619189",
+      "name": "Expeditious Retreat",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2089",
       "name": "Eyebite",
       "kind": "spell",
@@ -609,6 +646,19 @@
     },
     {
       "definitionId": "2094",
+      "name": "Fear",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618872",
       "name": "Fear",
       "kind": "spell",
       "modes": {
@@ -658,7 +708,33 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618905",
+      "name": "Flesh to Stone",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2111",
+      "name": "Fly",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618909",
       "name": "Fly",
       "kind": "spell",
       "modes": {
@@ -684,6 +760,19 @@
     },
     {
       "definitionId": "2115",
+      "name": "Foresight",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "buff"
+      ],
+      "source": "llm",
+      "note": "Cast ahead of the fight; too slow mid-combat."
+    },
+    {
+      "definitionId": "2618918",
       "name": "Foresight",
       "kind": "spell",
       "modes": {
@@ -722,6 +811,18 @@
     },
     {
       "definitionId": "2136",
+      "name": "Hallucinatory Terrain",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619139",
       "name": "Hallucinatory Terrain",
       "kind": "spell",
       "modes": {
@@ -864,6 +965,19 @@
     },
     {
       "definitionId": "2159",
+      "name": "Invisibility",
+      "kind": "spell",
+      "modes": {
+        "combat": 35
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619116",
       "name": "Invisibility",
       "kind": "spell",
       "modes": {
@@ -1188,6 +1302,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619071",
+      "name": "Spider Climb",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2269",
       "name": "Suggestion",
       "kind": "spell",
@@ -1292,6 +1419,18 @@
     },
     {
       "definitionId": "2286",
+      "name": "True Seeing",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619201",
       "name": "True Seeing",
       "kind": "spell",
       "modes": {

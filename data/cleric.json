@@ -169,7 +169,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618853",
+      "name": "Animate Dead",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "1999",
+      "name": "Antimagic Field",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618860",
       "name": "Antimagic Field",
       "kind": "spell",
       "modes": {
@@ -194,6 +219,44 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618878",
+      "name": "Astral Projection",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2007",
+      "name": "Augury",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618882",
+      "name": "Augury",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2618884",
       "name": "Aura of Life",
       "kind": "spell",
@@ -202,6 +265,45 @@
       },
       "tags": [
         "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618888",
+      "name": "Aura of Purity",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2333",
+      "name": "Aura of Vitality",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "heal",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618891",
+      "name": "Aura of Vitality",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "heal",
         "concentration"
       ],
       "source": "llm"
@@ -220,7 +322,33 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618900",
+      "name": "Bane",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2010",
+      "name": "Banishment",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618906",
       "name": "Banishment",
       "kind": "spell",
       "modes": {
@@ -247,6 +375,20 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618911",
+      "name": "Beacon of Hope",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "heal",
+        "buff",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2013",
       "name": "Bestow Curse",
       "kind": "spell",
@@ -254,6 +396,33 @@
         "combat": 50
       },
       "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618923",
+      "name": "Bestow Curse",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618929",
+      "name": "Blade Barrier",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack",
         "control",
         "concentration"
       ],
@@ -300,6 +469,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618938",
+      "name": "Blindness/Deafness",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2023",
       "name": "Calm Emotions",
       "kind": "spell",
@@ -308,6 +489,45 @@
       },
       "tags": [
         "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618959",
+      "name": "Calm Emotions",
+      "kind": "spell",
+      "modes": {
+        "combat": 25
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14760",
+      "name": "Ceremony",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618970",
+      "name": "Circle of Power",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "defensive",
         "concentration"
       ],
       "source": "llm"
@@ -363,6 +583,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618987",
+      "name": "Commune",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619046",
+      "name": "Conjure Celestial",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2046",
       "name": "Contagion",
       "kind": "spell",
@@ -375,7 +621,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619063",
+      "name": "Contagion",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2048",
+      "name": "Continual Flame",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619065",
       "name": "Continual Flame",
       "kind": "spell",
       "modes": {
@@ -400,7 +670,80 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619054",
+      "name": "Control Weather",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2052",
+      "name": "Create Food and Water",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619073",
+      "name": "Create Food and Water",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2053",
+      "name": "Create or Destroy Water",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619074",
+      "name": "Create or Destroy Water",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2054",
+      "name": "Create Undead",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619076",
       "name": "Create Undead",
       "kind": "spell",
       "modes": {
@@ -461,6 +804,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619083",
+      "name": "Daylight",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2061",
       "name": "Death Ward",
       "kind": "spell",
@@ -481,6 +836,19 @@
       },
       "tags": [
         "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2064",
+      "name": "Detect Evil and Good",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration"
       ],
       "source": "llm"
     },
@@ -540,6 +908,33 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619093",
+      "name": "Detect Poison and Disease",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619096",
+      "name": "Dispel Evil and Good",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2072",
       "name": "Dispel Magic",
       "kind": "spell",
@@ -577,7 +972,71 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619140",
+      "name": "Divination",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619144",
+      "name": "Divine Word",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2081",
+      "name": "Earthquake",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619160",
+      "name": "Earthquake",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2083",
+      "name": "Enhance Ability",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "buff",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619165",
       "name": "Enhance Ability",
       "kind": "spell",
       "modes": {
@@ -602,6 +1061,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619193",
+      "name": "Etherealness",
+      "kind": "spell",
+      "modes": {
+        "combat": 25
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2338",
       "name": "Feign Death",
       "kind": "spell",
@@ -615,7 +1086,58 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618873",
+      "name": "Feign Death",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2099",
+      "name": "Find the Path",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618881",
+      "name": "Find the Path",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2100",
+      "name": "Find Traps",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618883",
       "name": "Find Traps",
       "kind": "spell",
       "modes": {
@@ -635,6 +1157,43 @@
       },
       "tags": [
         "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618896",
+      "name": "Fire Storm",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618920",
+      "name": "Flame Strike",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618913",
+      "name": "Forbiddance",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive",
+        "ritual"
       ],
       "source": "llm"
     },
@@ -676,6 +1235,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618932",
+      "name": "Gate",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2121",
       "name": "Gentle Repose",
       "kind": "spell",
@@ -689,7 +1261,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618942",
+      "name": "Gentle Repose",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2125",
+      "name": "Glyph of Warding",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618951",
       "name": "Glyph of Warding",
       "kind": "spell",
       "modes": {
@@ -726,6 +1323,18 @@
     },
     {
       "definitionId": "2130",
+      "name": "Guardian of Faith",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619135",
       "name": "Guardian of Faith",
       "kind": "spell",
       "modes": {
@@ -775,7 +1384,55 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619136",
+      "name": "Guiding Bolt",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619138",
+      "name": "Hallow",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618977",
+      "name": "Harm",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2139",
+      "name": "Heal",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618979",
       "name": "Heal",
       "kind": "spell",
       "modes": {
@@ -825,6 +1482,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618983",
+      "name": "Heroes' Feast",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "buff"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2147",
       "name": "Hold Person",
       "kind": "spell",
@@ -838,7 +1507,111 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619153",
+      "name": "Hold Person",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619155",
+      "name": "Holy Aura",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "buff",
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14874",
+      "name": "Holy Weapon",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "buff",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2156",
+      "name": "Inflict Wounds",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619181",
+      "name": "Inflict Wounds",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2157",
+      "name": "Insect Plague",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619183",
+      "name": "Insect Plague",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2163",
+      "name": "Legend Lore",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619010",
       "name": "Legend Lore",
       "kind": "spell",
       "modes": {
@@ -911,6 +1684,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619001",
+      "name": "Locate Creature",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2170",
       "name": "Locate Object",
       "kind": "spell",
@@ -949,11 +1735,47 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619018",
+      "name": "Magic Circle",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2181",
+      "name": "Mass Cure Wounds",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2619026",
       "name": "Mass Cure Wounds",
       "kind": "spell",
       "modes": {
         "combat": 55
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619027",
+      "name": "Mass Heal",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
       },
       "tags": [
         "heal"
@@ -985,6 +1807,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2186",
+      "name": "Meld into Stone",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619031",
+      "name": "Meld into Stone",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2187",
       "name": "Mending",
       "kind": "spell",
@@ -1009,7 +1857,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618861",
+      "name": "Planar Ally",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2205",
+      "name": "Planar Binding",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618864",
       "name": "Planar Binding",
       "kind": "spell",
       "modes": {
@@ -1033,7 +1905,56 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618867",
+      "name": "Plane Shift",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618837",
+      "name": "Power Word Fortify",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618880",
+      "name": "Power Word Heal",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2212",
+      "name": "Prayer of Healing",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm",
+      "note": "Too slow to cast mid-fight; a between-fights heal."
+    },
+    {
+      "definitionId": "2618892",
       "name": "Prayer of Healing",
       "kind": "spell",
       "modes": {
@@ -1098,6 +2019,30 @@
       "source": "llm"
     },
     {
+      "definitionId": "2222",
+      "name": "Protection from Poison",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618915",
+      "name": "Protection from Poison",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2223",
       "name": "Purify Food and Drink",
       "kind": "spell",
@@ -1111,6 +2056,55 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618917",
+      "name": "Purify Food and Drink",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618922",
+      "name": "Raise Dead",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2227",
+      "name": "Regenerate",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618937",
+      "name": "Regenerate",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2229",
       "name": "Remove Curse",
       "kind": "spell",
@@ -1119,6 +2113,30 @@
       },
       "tags": [
         "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618943",
+      "name": "Remove Curse",
+      "kind": "spell",
+      "modes": {
+        "combat": 15
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618953",
+      "name": "Resurrection",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "heal"
       ],
       "source": "llm"
     },
@@ -1162,6 +2180,18 @@
       "note": "The cleric's reliable ranged damage cantrip; ignores cover."
     },
     {
+      "definitionId": "2237",
+      "name": "Sanctuary",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2619003",
       "name": "Sanctuary",
       "kind": "spell",
@@ -1187,6 +2217,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619007",
+      "name": "Scrying",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2243",
       "name": "Sending",
       "kind": "spell",
@@ -1199,7 +2242,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619015",
+      "name": "Sending",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2248",
+      "name": "Shield of Faith",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619020",
       "name": "Shield of Faith",
       "kind": "spell",
       "modes": {
@@ -1226,6 +2294,20 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619061",
+      "name": "Silence",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "control",
+        "concentration",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2259",
       "name": "Speak with Dead",
       "kind": "spell",
@@ -1234,6 +2316,61 @@
       },
       "tags": [
         "knowledge"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619068",
+      "name": "Speak with Dead",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "knowledge"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2264",
+      "name": "Spirit Guardians",
+      "kind": "spell",
+      "modes": {
+        "combat": 90
+      },
+      "tags": [
+        "attack",
+        "control",
+        "concentration"
+      ],
+      "source": "llm",
+      "note": "The cleric's signature combat spell: damage every round without another action."
+    },
+    {
+      "definitionId": "2619078",
+      "name": "Spirit Guardians",
+      "kind": "spell",
+      "modes": {
+        "combat": 90
+      },
+      "tags": [
+        "attack",
+        "control",
+        "concentration"
+      ],
+      "source": "llm",
+      "note": "The cleric's signature combat spell: damage every round without another action."
+    },
+    {
+      "definitionId": "718581",
+      "name": "Spirit Shroud",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "buff",
+        "concentration"
       ],
       "source": "llm"
     },
@@ -1251,6 +2388,20 @@
       "note": "Bonus-action damage that doesn't need concentration — usually turn one."
     },
     {
+      "definitionId": "2619081",
+      "name": "Spiritual Weapon",
+      "kind": "spell",
+      "modes": {
+        "combat": 90
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm",
+      "note": "Bonus-action damage that doesn't need concentration — usually turn one."
+    },
+    {
       "definitionId": "2267",
       "name": "Stone Shape",
       "kind": "spell",
@@ -1263,6 +2414,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619092",
+      "name": "Stone Shape",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619108",
+      "name": "Summon Celestial",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2272",
       "name": "Symbol",
       "kind": "spell",
@@ -1271,6 +2447,30 @@
       },
       "tags": [
         "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619127",
+      "name": "Symbol",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "14606",
+      "name": "Temple of the Gods",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
       ],
       "source": "llm"
     },
@@ -1337,7 +2537,119 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619190",
+      "name": "Tongues",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2285",
+      "name": "True Resurrection",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619199",
+      "name": "True Resurrection",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "heal"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2296",
+      "name": "Warding Bond",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm",
+      "note": "Cast before the fight on whoever will be hit most."
+    },
+    {
+      "definitionId": "2619203",
+      "name": "Warding Bond",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm",
+      "note": "Cast before the fight on whoever will be hit most."
+    },
+    {
+      "definitionId": "2298",
+      "name": "Water Walk",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619207",
+      "name": "Water Walk",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619218",
+      "name": "Word of Recall",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2305",
+      "name": "Zone of Truth",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619221",
       "name": "Zone of Truth",
       "kind": "spell",
       "modes": {
