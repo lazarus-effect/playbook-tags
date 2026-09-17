@@ -1141,6 +1141,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619039",
+      "name": "Minor Illusion",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2193",
       "name": "Mirror Image",
       "kind": "spell",
@@ -1328,6 +1340,18 @@
     },
     {
       "definitionId": "2246",
+      "name": "Shatter",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619017",
       "name": "Shatter",
       "kind": "spell",
       "modes": {

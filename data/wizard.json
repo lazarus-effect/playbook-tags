@@ -1149,6 +1149,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618877",
+      "name": "Find Familiar",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2103",
       "name": "Fire Bolt",
       "kind": "spell",
@@ -1782,6 +1795,18 @@
     },
     {
       "definitionId": "2167",
+      "name": "Lightning Bolt",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618999",
       "name": "Lightning Bolt",
       "kind": "spell",
       "modes": {
@@ -2481,6 +2506,19 @@
     },
     {
       "definitionId": "2226",
+      "name": "Ray of Frost",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack",
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618930",
       "name": "Ray of Frost",
       "kind": "spell",
       "modes": {
