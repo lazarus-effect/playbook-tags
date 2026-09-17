@@ -1414,6 +1414,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618958",
+      "name": "Greater Invisibility",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "buff",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2131",
       "name": "Guards and Wards",
       "kind": "spell",
@@ -2142,6 +2155,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619131",
+      "name": "Mislead",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "defensive",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2196",
       "name": "Modify Memory",
       "kind": "spell",
@@ -2729,6 +2755,18 @@
     },
     {
       "definitionId": "2241",
+      "name": "Seeming",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619014",
       "name": "Seeming",
       "kind": "spell",
       "modes": {
