@@ -1731,6 +1731,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618992",
+      "name": "Knock",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2346",
       "name": "Leomund's Secret Chest",
       "kind": "spell",
@@ -1756,6 +1768,19 @@
     },
     {
       "definitionId": "2340",
+      "name": "Leomund's Tiny Hut",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619013",
       "name": "Leomund's Tiny Hut",
       "kind": "spell",
       "modes": {
@@ -2380,6 +2405,19 @@
     },
     {
       "definitionId": "2202",
+      "name": "Phantasmal Killer",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618857",
       "name": "Phantasmal Killer",
       "kind": "spell",
       "modes": {
