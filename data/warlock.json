@@ -179,6 +179,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618865",
+      "name": "Arcane Gate",
+      "kind": "spell",
+      "modes": {
+        "combat": 20
+      },
+      "tags": [
+        "movement",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2310",
       "name": "Armor of Agathys",
       "kind": "spell",
@@ -300,7 +313,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618969",
+      "name": "Circle of Death",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2327",
+      "name": "Cloud of Daggers",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618974",
       "name": "Cloud of Daggers",
       "kind": "spell",
       "modes": {
@@ -378,6 +416,19 @@
       "note": "Reaction that decides fights; keep it visible."
     },
     {
+      "definitionId": "2619072",
+      "name": "Counterspell",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm",
+      "note": "Reaction that decides fights; keep it visible."
+    },
+    {
       "definitionId": "2373",
       "name": "Create Bonfire",
       "kind": "spell",
@@ -392,6 +443,19 @@
     },
     {
       "definitionId": "2329",
+      "name": "Crown of Madness",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619056",
       "name": "Crown of Madness",
       "kind": "spell",
       "modes": {
@@ -554,6 +618,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619156",
+      "name": "Dream",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2082",
       "name": "Eldritch Blast",
       "kind": "spell",
@@ -657,6 +733,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619191",
+      "name": "Eyebite",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14870",
       "name": "Far Step",
       "kind": "spell",
@@ -709,6 +798,18 @@
     },
     {
       "definitionId": "2101",
+      "name": "Finger of Death",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618885",
       "name": "Finger of Death",
       "kind": "spell",
       "modes": {
@@ -773,6 +874,18 @@
     },
     {
       "definitionId": "2114",
+      "name": "Forcecage",
+      "kind": "spell",
+      "modes": {
+        "combat": 80
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618916",
       "name": "Forcecage",
       "kind": "spell",
       "modes": {
@@ -1028,6 +1141,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619175",
+      "name": "Imprisonment",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14877",
       "name": "Infernal Calling",
       "kind": "spell",
@@ -1117,7 +1242,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619025",
+      "name": "Major Image",
+      "kind": "spell",
+      "modes": {
+        "combat": 30
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2184",
+      "name": "Mass Suggestion",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619029",
       "name": "Mass Suggestion",
       "kind": "spell",
       "modes": {
@@ -1156,6 +1306,19 @@
     },
     {
       "definitionId": "14482",
+      "name": "Mind Spike",
+      "kind": "spell",
+      "modes": {
+        "combat": 55
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619038",
       "name": "Mind Spike",
       "kind": "spell",
       "modes": {
@@ -1291,6 +1454,18 @@
     },
     {
       "definitionId": "2211",
+      "name": "Power Word Stun",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618889",
       "name": "Power Word Stun",
       "kind": "spell",
       "modes": {
@@ -1505,6 +1680,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "718613",
+      "name": "Summon Aberration",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14603",
       "name": "Summon Greater Demon",
       "kind": "spell",
@@ -1532,6 +1720,18 @@
     },
     {
       "definitionId": "14605",
+      "name": "Synaptic Static",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619129",
       "name": "Synaptic Static",
       "kind": "spell",
       "modes": {
@@ -1619,7 +1819,34 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619209",
+      "name": "Unseen Servant",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2289",
+      "name": "Vampiric Touch",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "heal",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619214",
       "name": "Vampiric Touch",
       "kind": "spell",
       "modes": {
@@ -1647,6 +1874,19 @@
     },
     {
       "definitionId": "2323",
+      "name": "Witch Bolt",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619215",
       "name": "Witch Bolt",
       "kind": "spell",
       "modes": {

@@ -491,6 +491,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618960",
+      "name": "Chain Lightning",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2312",
       "name": "Chromatic Orb",
       "kind": "spell",
@@ -527,7 +539,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618973",
+      "name": "Clone",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2030",
+      "name": "Cloudkill",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618976",
       "name": "Cloudkill",
       "kind": "spell",
       "modes": {
@@ -682,6 +719,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619053",
+      "name": "Contingency",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2049",
       "name": "Control Water",
       "kind": "spell",
@@ -808,6 +857,19 @@
     },
     {
       "definitionId": "2062",
+      "name": "Delayed Blast Fireball",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619086",
       "name": "Delayed Blast Fireball",
       "kind": "spell",
       "modes": {
@@ -949,6 +1011,19 @@
     },
     {
       "definitionId": "2359",
+      "name": "Drawmij's Instant Summons",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619154",
       "name": "Drawmij's Instant Summons",
       "kind": "spell",
       "modes": {
@@ -1491,6 +1566,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618968",
+      "name": "Guards and Wards",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2134",
       "name": "Gust of Wind",
       "kind": "spell",
@@ -1982,7 +2069,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619021",
+      "name": "Magic Jar",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2176",
+      "name": "Magic Missile",
+      "kind": "spell",
+      "modes": {
+        "combat": 70
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm",
+      "note": "Never misses — the answer to high AC and concentration checks."
+    },
+    {
+      "definitionId": "2619022",
       "name": "Magic Missile",
       "kind": "spell",
       "modes": {
@@ -2097,7 +2209,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619030",
+      "name": "Maze",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2330",
+      "name": "Melf's Acid Arrow",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619032",
       "name": "Melf's Acid Arrow",
       "kind": "spell",
       "modes": {
@@ -2134,7 +2271,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619034",
+      "name": "Message",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2189",
+      "name": "Meteor Swarm",
+      "kind": "spell",
+      "modes": {
+        "combat": 85
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619035",
       "name": "Meteor Swarm",
       "kind": "spell",
       "modes": {
@@ -2159,6 +2320,18 @@
     },
     {
       "definitionId": "2190",
+      "name": "Mind Blank",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619036",
       "name": "Mind Blank",
       "kind": "spell",
       "modes": {
@@ -2294,6 +2467,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619112",
+      "name": "Mordenkainen's Magnificent Mansion",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2348",
       "name": "Mordenkainen's Private Sanctum",
       "kind": "spell",
@@ -2319,6 +2504,19 @@
     },
     {
       "definitionId": "2004",
+      "name": "Mordenkainen's Sword",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619118",
       "name": "Mordenkainen's Sword",
       "kind": "spell",
       "modes": {
@@ -2393,7 +2591,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619124",
+      "name": "Nystul's Magic Aura",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2360",
+      "name": "Otiluke's Freezing Sphere",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619126",
       "name": "Otiluke's Freezing Sphere",
       "kind": "spell",
       "modes": {
@@ -2444,7 +2666,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619130",
+      "name": "Otto's Irresistible Dance",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2200",
+      "name": "Passwall",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618852",
       "name": "Passwall",
       "kind": "spell",
       "modes": {
@@ -2521,6 +2768,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618859",
+      "name": "Phantom Steed",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2209",
       "name": "Polymorph",
       "kind": "spell",
@@ -2559,7 +2819,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618895",
+      "name": "Prismatic Spray",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2215",
+      "name": "Prismatic Wall",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "defensive"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618898",
       "name": "Prismatic Wall",
       "kind": "spell",
       "modes": {
@@ -2595,7 +2879,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618902",
+      "name": "Programmed Illusion",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2219",
+      "name": "Project Image",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2618903",
       "name": "Project Image",
       "kind": "spell",
       "modes": {
@@ -2855,6 +3164,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618980",
+      "name": "Sequester",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2245",
       "name": "Shapechange",
       "kind": "spell",
@@ -2958,6 +3279,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2618995",
+      "name": "Simulacrum",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "14599",
       "name": "Skill Empowerment",
       "kind": "spell",
@@ -3036,6 +3369,19 @@
     },
     {
       "definitionId": "2256",
+      "name": "Slow",
+      "kind": "spell",
+      "modes": {
+        "combat": 75
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619066",
       "name": "Slow",
       "kind": "spell",
       "modes": {
@@ -3314,7 +3660,31 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619159",
+      "name": "Telepathy",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "social"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2275",
+      "name": "Teleport",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619163",
       "name": "Teleport",
       "kind": "spell",
       "modes": {
@@ -3338,7 +3708,32 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619167",
+      "name": "Teleportation Circle",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "movement"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2321",
+      "name": "Tenser's Floating Disk",
+      "kind": "spell",
+      "modes": {
+        "combat": null
+      },
+      "tags": [
+        "utility",
+        "ritual"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619169",
       "name": "Tenser's Floating Disk",
       "kind": "spell",
       "modes": {
@@ -3402,6 +3797,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619185",
+      "name": "Time Stop",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "buff"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2280",
       "name": "Tiny Hut",
       "kind": "spell",
@@ -3440,6 +3847,18 @@
     },
     {
       "definitionId": "2404",
+      "name": "Vitriolic Sphere",
+      "kind": "spell",
+      "modes": {
+        "combat": 65
+      },
+      "tags": [
+        "attack"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619219",
       "name": "Vitriolic Sphere",
       "kind": "spell",
       "modes": {
@@ -3506,6 +3925,19 @@
     },
     {
       "definitionId": "2293",
+      "name": "Wall of Ice",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619195",
       "name": "Wall of Ice",
       "kind": "spell",
       "modes": {
@@ -3649,6 +4081,19 @@
     },
     {
       "definitionId": "2300",
+      "name": "Weird",
+      "kind": "spell",
+      "modes": {
+        "combat": 60
+      },
+      "tags": [
+        "attack",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619210",
       "name": "Weird",
       "kind": "spell",
       "modes": {
