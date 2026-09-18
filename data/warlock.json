@@ -1479,6 +1479,19 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619101",
+      "name": "Suggestion",
+      "kind": "spell",
+      "modes": {
+        "combat": 40
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2619105",
       "name": "Summon Aberration",
       "kind": "spell",

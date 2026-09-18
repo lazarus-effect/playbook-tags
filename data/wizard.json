@@ -2997,6 +2997,18 @@
       "source": "llm"
     },
     {
+      "definitionId": "2619064",
+      "name": "Sleep",
+      "kind": "spell",
+      "modes": {
+        "combat": 45
+      },
+      "tags": [
+        "control"
+      ],
+      "source": "llm"
+    },
+    {
       "definitionId": "2255",
       "name": "Sleet Storm",
       "kind": "spell",
@@ -3085,6 +3097,19 @@
     },
     {
       "definitionId": "2265",
+      "name": "Stinking Cloud",
+      "kind": "spell",
+      "modes": {
+        "combat": 50
+      },
+      "tags": [
+        "control",
+        "concentration"
+      ],
+      "source": "llm"
+    },
+    {
+      "definitionId": "2619091",
       "name": "Stinking Cloud",
       "kind": "spell",
       "modes": {
