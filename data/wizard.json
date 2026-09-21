@@ -3337,7 +3337,8 @@
         "combat": 45
       },
       "tags": [
-        "control"
+        "control",
+        "concentration"
       ],
       "source": "llm"
     },

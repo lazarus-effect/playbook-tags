@@ -892,7 +892,8 @@
         "combat": 80
       },
       "tags": [
-        "control"
+        "control",
+        "concentration"
       ],
       "source": "llm"
     },

@@ -2398,8 +2398,8 @@
         "attack",
         "concentration"
       ],
-      "source": "llm",
-      "note": "Bonus-action damage that doesn't need concentration — usually turn one."
+      "source": "hand",
+      "note": "Still one of the cleric's main ways to fight. In the 2024 rules it takes concentration, so it competes with your other concentration spell."
     },
     {
       "definitionId": "2267",
