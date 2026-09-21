@@ -669,14 +669,14 @@
       "name": "Conjure Elemental",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": 60
       },
       "tags": [
         "attack",
         "concentration"
       ],
-      "source": "llm",
-      "note": "Takes a minute to cast in the older rules — not a mid-fight choice."
+      "source": "hand",
+      "note": "The 2024 printing casts in one action, so it is a real mid-fight choice."
     },
     {
       "definitionId": "2043",
@@ -697,14 +697,14 @@
       "name": "Conjure Minor Elementals",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": 60
       },
       "tags": [
         "attack",
         "concentration"
       ],
-      "source": "llm",
-      "note": "Takes a minute to cast in the older rules — not a mid-fight choice."
+      "source": "hand",
+      "note": "The 2024 printing casts in one action, so it is a real mid-fight choice."
     },
     {
       "definitionId": "2047",
