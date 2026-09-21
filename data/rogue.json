@@ -38,10 +38,15 @@
       },
       "action": "free",
       "tags": [
-        "attack"
+        "attack",
+        "rider"
       ],
-      "source": "llm",
-      "note": "Not a separate turn, but the rogue plans every attack around it — sits just after the weapon."
+      "source": "hand",
+      "note": "Not a separate turn, but the rogue plans every attack around it — sits just after the weapon.",
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "none"
+      }
     },
     {
       "definitionId": null,

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 0,
+  "name": "Species",
+  "description": "Species traits. Riders sit just below the attacks they ride until Phase 2 draws them on the attack itself.",
+  "entries": [
+    {
+      "definitionId": null,
+      "name": "Fire’s Burn (Fire Giant)",
+      "kind": "action",
+      "modes": {
+        "combat": 55
+      },
+      "action": "free",
+      "recharge": "long",
+      "tags": [
+        "attack",
+        "rider",
+        "limited-use"
+      ],
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "use"
+      },
+      "source": "hand",
+      "note": "Extra fire on a hit with any attack roll. On screen, just under the attacks it rides."
+    },
+    {
+      "definitionId": null,
+      "name": "Frost’s Chill (Frost Giant)",
+      "kind": "action",
+      "modes": {
+        "combat": 55
+      },
+      "action": "free",
+      "recharge": "long",
+      "tags": [
+        "attack",
+        "control",
+        "rider",
+        "limited-use"
+      ],
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "use"
+      },
+      "source": "hand",
+      "note": "Extra cold and a slow on a hit. Name keyed by pattern; not yet seen picked on a real sheet."
+    },
+    {
+      "definitionId": null,
+      "name": "Hill’s Tumble (Hill Giant)",
+      "kind": "action",
+      "modes": {
+        "combat": 55
+      },
+      "action": "free",
+      "recharge": "long",
+      "tags": [
+        "control",
+        "rider",
+        "limited-use"
+      ],
+      "rider": {
+        "attachesTo": "weapon",
+        "consumes": "use"
+      },
+      "source": "hand",
+      "note": "Knocks a Large-or-smaller target prone on a hit. Name keyed by pattern; not yet seen picked on a real sheet."
+    }
+  ]
+}
