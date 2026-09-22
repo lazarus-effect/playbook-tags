@@ -83,7 +83,11 @@ function checkEntryRules(entry, file, path) {
   if (entry.note && RULES_TEXT.test(entry.note)) fail(file, path, 'note reads like rules text — say why Playbook ranks it this way instead');
 }
 
-const keyOf = (entry) => (entry.definitionId ? `${entry.kind}:${entry.definitionId}` : `${entry.kind}:name:${entry.name.toLowerCase()}`);
+// Same key the extension builds (Playbook src/tags/types.ts nameKey): NFKC, one apostrophe glyph, one
+// space, lowercase. "Dark One’s Blessing" and "Dark One's Blessing" are one key — so two entries that
+// differ only by apostrophe or spacing are duplicates, not two tags.
+const nameKey = (name) => name.normalize('NFKC').replace(/[\u2018\u2019\u02BC\u0060\u00B4]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
+const keyOf = (entry) => (entry.definitionId ? `${entry.kind}:${entry.definitionId}` : `${entry.kind}:name:${nameKey(entry.name)}`);
 
 function validateFile(file, seenAcrossFiles) {
   let parsed;
