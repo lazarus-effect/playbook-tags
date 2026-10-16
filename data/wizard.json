@@ -8,7 +8,8 @@
       "name": "Arcane Recovery",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "action": "none",
       "tags": [
@@ -23,7 +24,8 @@
       "name": "Cantrip Formulas",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -36,7 +38,8 @@
       "name": "Expert Divination",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -49,7 +52,8 @@
       "name": "Illusory Reality",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -62,7 +66,8 @@
       "name": "Illusory Self",
       "kind": "action",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "action": "reaction",
       "tags": [
@@ -76,7 +81,8 @@
       "name": "Malleable Illusions",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -89,7 +95,8 @@
       "name": "Portent",
       "kind": "action",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "action": "free",
       "tags": [
@@ -104,7 +111,8 @@
       "name": "The Third Eye",
       "kind": "action",
       "modes": {
-        "combat": 15
+        "combat": 15,
+        "explore": 70
       },
       "action": "bonus",
       "tags": [
@@ -118,7 +126,8 @@
       "name": "Abi-Dalzim's Horrid Wilting",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -130,7 +139,8 @@
       "name": "Absorb Elements",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -142,7 +152,8 @@
       "name": "Acid Arrow",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -154,7 +165,8 @@
       "name": "Aganazzar's Scorcher",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -166,7 +178,8 @@
       "name": "Alarm",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -179,7 +192,8 @@
       "name": "Alarm",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -192,7 +206,8 @@
       "name": "Alter Self",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -205,7 +220,8 @@
       "name": "Alter Self",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -218,7 +234,8 @@
       "name": "Animate Objects",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -231,7 +248,8 @@
       "name": "Animate Objects",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -244,7 +262,8 @@
       "name": "Antipathy/Sympathy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "control"
@@ -256,7 +275,8 @@
       "name": "Antipathy/Sympathy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "control"
@@ -268,7 +288,8 @@
       "name": "Arcane Eye",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -281,7 +302,8 @@
       "name": "Arcane Eye",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -294,7 +316,8 @@
       "name": "Arcane Hand",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -308,7 +331,8 @@
       "name": "Arcane Lock",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -320,7 +344,8 @@
       "name": "Arcane Lock",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -332,7 +357,8 @@
       "name": "Arcanist's Magic Aura",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -344,7 +370,8 @@
       "name": "Bigby's Hand",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -358,7 +385,8 @@
       "name": "Bigby's Hand",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -372,7 +400,8 @@
       "name": "Black Tentacles",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control",
@@ -385,7 +414,8 @@
       "name": "Blink",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -397,7 +427,8 @@
       "name": "Blink",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -409,7 +440,8 @@
       "name": "Blur",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -422,7 +454,8 @@
       "name": "Blur",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -435,7 +468,8 @@
       "name": "Burning Hands",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -447,7 +481,8 @@
       "name": "Burning Hands",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -459,7 +494,8 @@
       "name": "Catapult",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -471,7 +507,8 @@
       "name": "Catnap",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -483,7 +520,8 @@
       "name": "Chain Lightning",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -495,7 +533,8 @@
       "name": "Chain Lightning",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -507,7 +546,8 @@
       "name": "Chromatic Orb",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -519,7 +559,8 @@
       "name": "Chromatic Orb",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -531,7 +572,8 @@
       "name": "Clone",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -543,7 +585,8 @@
       "name": "Clone",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -555,7 +598,8 @@
       "name": "Cloudkill",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -568,7 +612,8 @@
       "name": "Cloudkill",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -581,7 +626,8 @@
       "name": "Color Spray",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "control"
@@ -593,7 +639,8 @@
       "name": "Color Spray",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "control"
@@ -605,7 +652,8 @@
       "name": "Cone of Cold",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -617,7 +665,8 @@
       "name": "Cone of Cold",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -629,7 +678,8 @@
       "name": "Confusion",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -642,7 +692,8 @@
       "name": "Confusion",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -655,7 +706,8 @@
       "name": "Conjure Elemental",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -669,7 +721,8 @@
       "name": "Conjure Elemental",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -683,7 +736,8 @@
       "name": "Conjure Minor Elementals",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -697,7 +751,8 @@
       "name": "Conjure Minor Elementals",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -711,7 +766,8 @@
       "name": "Contingency",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -723,7 +779,8 @@
       "name": "Contingency",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -735,7 +792,8 @@
       "name": "Control Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -748,7 +806,8 @@
       "name": "Control Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -761,7 +820,8 @@
       "name": "Control Winds",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "control",
@@ -774,7 +834,8 @@
       "name": "Create Homunculus",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -786,7 +847,8 @@
       "name": "Creation",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -798,7 +860,8 @@
       "name": "Creation",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -810,7 +873,8 @@
       "name": "Dancing Lights",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -823,7 +887,8 @@
       "name": "Dancing Lights",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -836,7 +901,8 @@
       "name": "Darkvision",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -848,7 +914,8 @@
       "name": "Darkvision",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -860,7 +927,8 @@
       "name": "Delayed Blast Fireball",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -873,7 +941,8 @@
       "name": "Delayed Blast Fireball",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -886,7 +955,8 @@
       "name": "Detect Thoughts",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -899,7 +969,8 @@
       "name": "Detect Thoughts",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -912,7 +983,8 @@
       "name": "Disguise Self",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -924,7 +996,8 @@
       "name": "Disguise Self",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -936,7 +1009,8 @@
       "name": "Disintegrate",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -948,7 +1022,8 @@
       "name": "Disintegrate",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -960,7 +1035,8 @@
       "name": "Dominate Person",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -973,7 +1049,8 @@
       "name": "Dominate Person",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -986,7 +1063,8 @@
       "name": "Dragon's Breath",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1000,7 +1078,8 @@
       "name": "Dragon's Breath",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1014,7 +1093,8 @@
       "name": "Drawmij's Instant Summons",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1027,7 +1107,8 @@
       "name": "Drawmij's Instant Summons",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1040,7 +1121,8 @@
       "name": "Dream of the Blue Veil",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -1052,7 +1134,8 @@
       "name": "Dust Devil",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1065,7 +1148,8 @@
       "name": "Earth Tremor",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1078,7 +1162,8 @@
       "name": "Earthbind",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1091,7 +1176,8 @@
       "name": "Elementalism",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -1103,7 +1189,8 @@
       "name": "Enemies Abound",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1116,7 +1203,8 @@
       "name": "Enlarge/Reduce",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -1130,7 +1218,8 @@
       "name": "Enlarge/Reduce",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -1144,7 +1233,8 @@
       "name": "Erupting Earth",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1156,7 +1246,8 @@
       "name": "Evard's Black Tentacles",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1169,7 +1260,8 @@
       "name": "Evard's Black Tentacles",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1182,7 +1274,8 @@
       "name": "Fabricate",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -1194,7 +1287,8 @@
       "name": "Fabricate",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -1206,7 +1300,8 @@
       "name": "Faithful Hound",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1218,7 +1313,8 @@
       "name": "False Life",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1230,7 +1326,8 @@
       "name": "False Life",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1242,7 +1339,8 @@
       "name": "Feather Fall",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1254,7 +1352,8 @@
       "name": "Feather Fall",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1266,7 +1365,8 @@
       "name": "Find Familiar",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -1279,7 +1379,8 @@
       "name": "Find Familiar",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility",
@@ -1292,7 +1393,8 @@
       "name": "Fire Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 88
+        "combat": 88,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1305,7 +1407,8 @@
       "name": "Fire Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 88
+        "combat": 88,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1318,7 +1421,8 @@
       "name": "Fire Shield",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -1330,7 +1434,8 @@
       "name": "Fire Shield",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -1342,7 +1447,8 @@
       "name": "Fireball",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1355,7 +1461,8 @@
       "name": "Fireball",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1368,7 +1475,8 @@
       "name": "Flame Arrows",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1381,7 +1489,8 @@
       "name": "Flaming Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1394,7 +1503,8 @@
       "name": "Flaming Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1407,7 +1517,8 @@
       "name": "Floating Disk",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -1420,7 +1531,8 @@
       "name": "Fog Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -1433,7 +1545,8 @@
       "name": "Fog Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -1446,7 +1559,8 @@
       "name": "Freezing Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1458,7 +1572,8 @@
       "name": "Geas",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -1470,7 +1585,8 @@
       "name": "Geas",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -1482,7 +1598,8 @@
       "name": "Globe of Invulnerability",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -1495,7 +1612,8 @@
       "name": "Globe of Invulnerability",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -1508,7 +1626,8 @@
       "name": "Grease",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control"
@@ -1520,7 +1639,8 @@
       "name": "Grease",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control"
@@ -1532,7 +1652,8 @@
       "name": "Greater Invisibility",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -1545,7 +1666,8 @@
       "name": "Greater Invisibility",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -1558,7 +1680,8 @@
       "name": "Guards and Wards",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1570,7 +1693,8 @@
       "name": "Guards and Wards",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1582,7 +1706,8 @@
       "name": "Gust of Wind",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -1595,7 +1720,8 @@
       "name": "Gust of Wind",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -1608,7 +1734,8 @@
       "name": "Haste",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1621,7 +1748,8 @@
       "name": "Haste",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1634,7 +1762,8 @@
       "name": "Hideous Laughter",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1647,7 +1776,8 @@
       "name": "Ice Knife",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1659,7 +1789,8 @@
       "name": "Ice Knife",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1671,7 +1802,8 @@
       "name": "Ice Storm",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1683,7 +1815,8 @@
       "name": "Ice Storm",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1695,7 +1828,8 @@
       "name": "Identify",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -1708,7 +1842,8 @@
       "name": "Identify",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -1721,7 +1856,8 @@
       "name": "Illusory Dragon",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1734,7 +1870,8 @@
       "name": "Immolation",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1747,7 +1884,8 @@
       "name": "Incendiary Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1760,7 +1898,8 @@
       "name": "Incendiary Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1773,7 +1912,8 @@
       "name": "Instant Summons",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1786,7 +1926,8 @@
       "name": "Investiture of Flame",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1799,7 +1940,8 @@
       "name": "Investiture of Ice",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1812,7 +1954,8 @@
       "name": "Investiture of Stone",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1825,7 +1968,8 @@
       "name": "Investiture of Wind",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1838,7 +1982,8 @@
       "name": "Invulnerability",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -1851,7 +1996,8 @@
       "name": "Jump",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -1863,7 +2009,8 @@
       "name": "Jump",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -1875,7 +2022,8 @@
       "name": "Knock",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -1887,7 +2035,8 @@
       "name": "Knock",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -1899,7 +2048,8 @@
       "name": "Leomund's Secret Chest",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1911,7 +2061,8 @@
       "name": "Leomund's Secret Chest",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1923,7 +2074,8 @@
       "name": "Leomund's Tiny Hut",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "defensive",
@@ -1936,7 +2088,8 @@
       "name": "Leomund's Tiny Hut",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "defensive",
@@ -1949,7 +2102,8 @@
       "name": "Levitate",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": 50
       },
       "tags": [
         "control",
@@ -1962,7 +2116,8 @@
       "name": "Levitate",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": 50
       },
       "tags": [
         "control",
@@ -1975,7 +2130,8 @@
       "name": "Life Transference",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1987,7 +2143,8 @@
       "name": "Lightning Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1999,7 +2156,8 @@
       "name": "Lightning Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2011,7 +2169,8 @@
       "name": "Longstrider",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement"
@@ -2023,7 +2182,8 @@
       "name": "Longstrider",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement"
@@ -2035,7 +2195,8 @@
       "name": "Mage Armor",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "defensive"
@@ -2048,7 +2209,8 @@
       "name": "Mage Armor",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "defensive"
@@ -2061,7 +2223,8 @@
       "name": "Magic Jar",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "utility"
@@ -2073,7 +2236,8 @@
       "name": "Magic Jar",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "utility"
@@ -2085,7 +2249,8 @@
       "name": "Magic Missile",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2098,7 +2263,8 @@
       "name": "Magic Missile",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2111,7 +2277,8 @@
       "name": "Magic Mouth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2124,7 +2291,8 @@
       "name": "Magic Mouth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2137,7 +2305,8 @@
       "name": "Magic Weapon",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -2150,7 +2319,8 @@
       "name": "Magic Weapon",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "buff"
@@ -2162,7 +2332,8 @@
       "name": "Magnificent Mansion",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2174,7 +2345,8 @@
       "name": "Mass Polymorph",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2187,7 +2359,8 @@
       "name": "Maximilian's Earthen Grasp",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2200,7 +2373,8 @@
       "name": "Maze",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2213,7 +2387,8 @@
       "name": "Maze",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2226,7 +2401,8 @@
       "name": "Melf's Acid Arrow",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2238,7 +2414,8 @@
       "name": "Melf's Acid Arrow",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2250,7 +2427,8 @@
       "name": "Melf's Minute Meteors",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2263,7 +2441,8 @@
       "name": "Message",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2275,7 +2454,8 @@
       "name": "Message",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2287,7 +2467,8 @@
       "name": "Meteor Swarm",
       "kind": "spell",
       "modes": {
-        "combat": 85
+        "combat": 85,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2299,7 +2480,8 @@
       "name": "Meteor Swarm",
       "kind": "spell",
       "modes": {
-        "combat": 85
+        "combat": 85,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2311,7 +2493,8 @@
       "name": "Mighty Fortress",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2323,7 +2506,8 @@
       "name": "Mind Blank",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2335,7 +2519,8 @@
       "name": "Mind Blank",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2347,7 +2532,8 @@
       "name": "Mirage Arcane",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2359,7 +2545,8 @@
       "name": "Mirage Arcane",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2371,7 +2558,8 @@
       "name": "Mislead",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive",
@@ -2384,7 +2572,8 @@
       "name": "Mislead",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive",
@@ -2397,7 +2586,8 @@
       "name": "Modify Memory",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social",
@@ -2410,7 +2600,8 @@
       "name": "Modify Memory",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social",
@@ -2423,7 +2614,8 @@
       "name": "Mold Earth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2435,7 +2627,8 @@
       "name": "Mordenkainen's Faithful Hound",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2447,7 +2640,8 @@
       "name": "Mordenkainen's Faithful Hound",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2459,7 +2653,8 @@
       "name": "Mordenkainen's Magnificent Mansion",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2471,7 +2666,8 @@
       "name": "Mordenkainen's Magnificent Mansion",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2483,7 +2679,8 @@
       "name": "Mordenkainen's Private Sanctum",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2495,7 +2692,8 @@
       "name": "Mordenkainen's Private Sanctum",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2507,7 +2705,8 @@
       "name": "Mordenkainen's Sword",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2520,7 +2719,8 @@
       "name": "Mordenkainen's Sword",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2533,7 +2733,8 @@
       "name": "Move Earth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2546,7 +2747,8 @@
       "name": "Move Earth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2559,7 +2761,8 @@
       "name": "Nondetection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2571,7 +2774,8 @@
       "name": "Nondetection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2583,7 +2787,8 @@
       "name": "Nystul's Magic Aura",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2595,7 +2800,8 @@
       "name": "Nystul's Magic Aura",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2607,7 +2813,8 @@
       "name": "Otiluke's Freezing Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2619,7 +2826,8 @@
       "name": "Otiluke's Freezing Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2631,7 +2839,8 @@
       "name": "Otiluke's Resilient Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2644,7 +2853,8 @@
       "name": "Otiluke's Resilient Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2657,7 +2867,8 @@
       "name": "Otto's Irresistible Dance",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2670,7 +2881,8 @@
       "name": "Otto's Irresistible Dance",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2683,7 +2895,8 @@
       "name": "Passwall",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "movement"
@@ -2695,7 +2908,8 @@
       "name": "Passwall",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "movement"
@@ -2707,7 +2921,8 @@
       "name": "Phantasmal Force",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2720,7 +2935,8 @@
       "name": "Phantasmal Force",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -2733,7 +2949,8 @@
       "name": "Phantasmal Killer",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2746,7 +2963,8 @@
       "name": "Phantasmal Killer",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2759,7 +2977,8 @@
       "name": "Phantom Steed",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement",
@@ -2772,7 +2991,8 @@
       "name": "Phantom Steed",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement",
@@ -2785,7 +3005,8 @@
       "name": "Polymorph",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -2798,7 +3019,8 @@
       "name": "Polymorph",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -2811,7 +3033,8 @@
       "name": "Prismatic Spray",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2823,7 +3046,8 @@
       "name": "Prismatic Spray",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2835,7 +3059,8 @@
       "name": "Prismatic Wall",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2847,7 +3072,8 @@
       "name": "Prismatic Wall",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2859,7 +3085,8 @@
       "name": "Private Sanctum",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2871,7 +3098,8 @@
       "name": "Programmed Illusion",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2883,7 +3111,8 @@
       "name": "Programmed Illusion",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2895,7 +3124,8 @@
       "name": "Project Image",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2908,7 +3138,8 @@
       "name": "Project Image",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2921,7 +3152,8 @@
       "name": "Pyrotechnics",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "tags": [
         "control"
@@ -2933,7 +3165,8 @@
       "name": "Rary's Telepathic Bond",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -2946,7 +3179,8 @@
       "name": "Rary's Telepathic Bond",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -2959,7 +3193,8 @@
       "name": "Ray of Frost",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2972,7 +3207,8 @@
       "name": "Ray of Frost",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2985,7 +3221,8 @@
       "name": "Ray of Sickness",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2997,7 +3234,8 @@
       "name": "Ray of Sickness",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3009,7 +3247,8 @@
       "name": "Resilient Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3022,7 +3261,8 @@
       "name": "Reverse Gravity",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3035,7 +3275,8 @@
       "name": "Reverse Gravity",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3048,7 +3289,8 @@
       "name": "Rope Trick",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -3060,7 +3302,8 @@
       "name": "Rope Trick",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -3072,7 +3315,8 @@
       "name": "Scorching Ray",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3084,7 +3328,8 @@
       "name": "Scorching Ray",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3096,7 +3341,8 @@
       "name": "Secret Chest",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3108,7 +3354,8 @@
       "name": "See Invisibility",
       "kind": "spell",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -3120,7 +3367,8 @@
       "name": "See Invisibility",
       "kind": "spell",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -3132,7 +3380,8 @@
       "name": "Seeming",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -3144,7 +3393,8 @@
       "name": "Seeming",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -3156,7 +3406,8 @@
       "name": "Sequester",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3168,7 +3419,8 @@
       "name": "Sequester",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3180,7 +3432,8 @@
       "name": "Shapechange",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -3193,7 +3446,8 @@
       "name": "Shapechange",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": 30
       },
       "tags": [
         "buff",
@@ -3206,7 +3460,8 @@
       "name": "Shield",
       "kind": "spell",
       "modes": {
-        "combat": 85
+        "combat": 85,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -3219,7 +3474,8 @@
       "name": "Shield",
       "kind": "spell",
       "modes": {
-        "combat": 85
+        "combat": 85,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -3232,7 +3488,8 @@
       "name": "Shocking Grasp",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3245,7 +3502,8 @@
       "name": "Silent Image",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -3258,7 +3516,8 @@
       "name": "Silent Image",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -3271,7 +3530,8 @@
       "name": "Simulacrum",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3283,7 +3543,8 @@
       "name": "Simulacrum",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3295,7 +3556,8 @@
       "name": "Skill Empowerment",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "buff",
@@ -3308,7 +3570,8 @@
       "name": "Skywrite",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -3322,7 +3585,8 @@
       "name": "Sleep",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control"
@@ -3334,7 +3598,8 @@
       "name": "Sleep",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3347,7 +3612,8 @@
       "name": "Sleet Storm",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3360,7 +3626,8 @@
       "name": "Sleet Storm",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3373,7 +3640,8 @@
       "name": "Slow",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3386,7 +3654,8 @@
       "name": "Slow",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3399,7 +3668,8 @@
       "name": "Snare",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "control"
@@ -3411,7 +3681,8 @@
       "name": "Snilloc's Snowball Swarm",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3423,7 +3694,8 @@
       "name": "Steel Wind Strike",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3435,7 +3707,8 @@
       "name": "Steel Wind Strike",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3447,7 +3720,8 @@
       "name": "Stinking Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3460,7 +3734,8 @@
       "name": "Stinking Cloud",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3473,7 +3748,8 @@
       "name": "Stoneskin",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -3486,7 +3762,8 @@
       "name": "Stoneskin",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -3499,7 +3776,8 @@
       "name": "Storm Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3512,7 +3790,8 @@
       "name": "Summon Construct",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3525,7 +3804,8 @@
       "name": "Summon Construct",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3538,7 +3818,8 @@
       "name": "Sunbeam",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3551,7 +3832,8 @@
       "name": "Sunbeam",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3564,7 +3846,8 @@
       "name": "Sunburst",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3576,7 +3859,8 @@
       "name": "Sunburst",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3588,7 +3872,8 @@
       "name": "Tasha's Hideous Laughter",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3601,7 +3886,8 @@
       "name": "Tasha's Hideous Laughter",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3614,7 +3900,8 @@
       "name": "Telekinesis",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -3627,7 +3914,8 @@
       "name": "Telekinesis",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -3640,7 +3928,8 @@
       "name": "Telepathic Bond",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -3653,7 +3942,8 @@
       "name": "Telepathy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -3665,7 +3955,8 @@
       "name": "Telepathy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "social"
@@ -3677,7 +3968,8 @@
       "name": "Teleport",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "movement"
@@ -3689,7 +3981,8 @@
       "name": "Teleport",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "movement"
@@ -3701,7 +3994,8 @@
       "name": "Teleportation Circle",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement"
@@ -3713,7 +4007,8 @@
       "name": "Teleportation Circle",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement"
@@ -3725,7 +4020,8 @@
       "name": "Tenser's Floating Disk",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -3738,7 +4034,8 @@
       "name": "Tenser's Floating Disk",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -3751,7 +4048,8 @@
       "name": "Thunderwave",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3764,7 +4062,8 @@
       "name": "Thunderwave",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3777,7 +4076,8 @@
       "name": "Tidal Wave",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3790,7 +4090,8 @@
       "name": "Time Stop",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "buff"
@@ -3802,7 +4103,8 @@
       "name": "Time Stop",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "buff"
@@ -3814,7 +4116,8 @@
       "name": "Tiny Hut",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "defensive",
@@ -3827,7 +4130,8 @@
       "name": "Tiny Servant",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -3839,7 +4143,8 @@
       "name": "Transmute Rock",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control"
@@ -3851,7 +4156,8 @@
       "name": "Vitriolic Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3863,7 +4169,8 @@
       "name": "Vitriolic Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -3875,7 +4182,8 @@
       "name": "Wall of Fire",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3889,7 +4197,8 @@
       "name": "Wall of Fire",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -3903,7 +4212,8 @@
       "name": "Wall of Force",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3916,7 +4226,8 @@
       "name": "Wall of Force",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3929,7 +4240,8 @@
       "name": "Wall of Ice",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3942,7 +4254,8 @@
       "name": "Wall of Ice",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3955,7 +4268,8 @@
       "name": "Wall of Sand",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3968,7 +4282,8 @@
       "name": "Wall of Stone",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3981,7 +4296,8 @@
       "name": "Wall of Stone",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "control",
@@ -3994,7 +4310,8 @@
       "name": "Wall of Water",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "control",
@@ -4007,7 +4324,8 @@
       "name": "Warding Wind",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -4020,7 +4338,8 @@
       "name": "Water Breathing",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -4033,7 +4352,8 @@
       "name": "Water Breathing",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -4046,7 +4366,8 @@
       "name": "Watery Sphere",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -4059,7 +4380,8 @@
       "name": "Web",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "control",
@@ -4072,7 +4394,8 @@
       "name": "Web",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "control",
@@ -4085,7 +4408,8 @@
       "name": "Weird",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -4098,7 +4422,8 @@
       "name": "Weird",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -4111,7 +4436,8 @@
       "name": "Whirlwind",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -4124,7 +4450,8 @@
       "name": "Wish",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -4136,7 +4463,8 @@
       "name": "Wish",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": 50
       },
       "tags": [
         "utility"

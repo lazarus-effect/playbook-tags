@@ -8,7 +8,8 @@
       "name": "Blessed Healer",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -21,7 +22,8 @@
       "name": "Channel Divinity",
       "kind": "action",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": 30
       },
       "action": "action",
       "tags": [
@@ -35,7 +37,8 @@
       "name": "Channel Divinity: Divine Spark",
       "kind": "action",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -50,7 +53,8 @@
       "name": "Channel Divinity: Preserve Life",
       "kind": "action",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -65,7 +69,8 @@
       "name": "Channel Divinity: Sear Undead",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -79,7 +84,8 @@
       "name": "Channel Divinity: Turn Undead",
       "kind": "action",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -93,7 +99,8 @@
       "name": "Destroy Undead",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -106,7 +113,8 @@
       "name": "Harness Divine Power",
       "kind": "action",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 50
       },
       "action": "bonus",
       "tags": [
@@ -120,7 +128,8 @@
       "name": "Supreme Healing",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -133,7 +142,8 @@
       "name": "Aid",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 50
       },
       "tags": [
         "heal",
@@ -147,7 +157,8 @@
       "name": "Aid",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 50
       },
       "tags": [
         "heal",
@@ -161,7 +172,8 @@
       "name": "Animate Dead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -173,7 +185,8 @@
       "name": "Animate Dead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -185,7 +198,8 @@
       "name": "Antimagic Field",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -198,7 +212,8 @@
       "name": "Antimagic Field",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -211,7 +226,8 @@
       "name": "Astral Projection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -223,7 +239,8 @@
       "name": "Astral Projection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -235,7 +252,8 @@
       "name": "Augury",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -248,7 +266,8 @@
       "name": "Augury",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -261,7 +280,8 @@
       "name": "Aura of Life",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -274,7 +294,8 @@
       "name": "Aura of Purity",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -287,7 +308,8 @@
       "name": "Aura of Vitality",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "heal",
@@ -300,7 +322,8 @@
       "name": "Aura of Vitality",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "heal",
@@ -313,7 +336,8 @@
       "name": "Bane",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -326,7 +350,8 @@
       "name": "Bane",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "control",
@@ -339,7 +364,8 @@
       "name": "Banishment",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "control",
@@ -352,7 +378,8 @@
       "name": "Banishment",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "control",
@@ -365,7 +392,8 @@
       "name": "Beacon of Hope",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "heal",
@@ -379,7 +407,8 @@
       "name": "Beacon of Hope",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "heal",
@@ -393,7 +422,8 @@
       "name": "Bestow Curse",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -406,7 +436,8 @@
       "name": "Bestow Curse",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "control",
@@ -419,7 +450,8 @@
       "name": "Blade Barrier",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -433,7 +465,8 @@
       "name": "Bless",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -447,7 +480,8 @@
       "name": "Bless",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -461,7 +495,8 @@
       "name": "Blindness/Deafness",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control"
@@ -473,7 +508,8 @@
       "name": "Blindness/Deafness",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control"
@@ -485,7 +521,8 @@
       "name": "Calm Emotions",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 50
       },
       "tags": [
         "control",
@@ -498,7 +535,8 @@
       "name": "Calm Emotions",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 50
       },
       "tags": [
         "control",
@@ -511,7 +549,8 @@
       "name": "Ceremony",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -524,7 +563,8 @@
       "name": "Circle of Power",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -537,7 +577,8 @@
       "name": "Clairvoyance",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -550,7 +591,8 @@
       "name": "Clairvoyance",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -563,7 +605,8 @@
       "name": "Command",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "control"
@@ -575,7 +618,8 @@
       "name": "Command",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "control"
@@ -587,7 +631,8 @@
       "name": "Commune",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -600,7 +645,8 @@
       "name": "Conjure Celestial",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -613,7 +659,8 @@
       "name": "Contagion",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -625,7 +672,8 @@
       "name": "Contagion",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -637,7 +685,8 @@
       "name": "Continual Flame",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -649,7 +698,8 @@
       "name": "Continual Flame",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -661,7 +711,8 @@
       "name": "Control Weather",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -674,7 +725,8 @@
       "name": "Control Weather",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -687,7 +739,8 @@
       "name": "Create Food and Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -699,7 +752,8 @@
       "name": "Create Food and Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -711,7 +765,8 @@
       "name": "Create or Destroy Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -723,7 +778,8 @@
       "name": "Create or Destroy Water",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -735,7 +791,8 @@
       "name": "Create Undead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -747,7 +804,8 @@
       "name": "Create Undead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -759,7 +817,8 @@
       "name": "Cure Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -771,7 +830,8 @@
       "name": "Cure Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -783,7 +843,8 @@
       "name": "Dawn",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -796,7 +857,8 @@
       "name": "Daylight",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -808,7 +870,8 @@
       "name": "Daylight",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -820,7 +883,8 @@
       "name": "Death Ward",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -832,7 +896,8 @@
       "name": "Death Ward",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -844,7 +909,8 @@
       "name": "Detect Evil and Good",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -857,7 +923,8 @@
       "name": "Detect Evil and Good",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -870,7 +937,8 @@
       "name": "Detect Magic",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 90
       },
       "tags": [
         "knowledge",
@@ -884,7 +952,8 @@
       "name": "Detect Magic",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 90
       },
       "tags": [
         "knowledge",
@@ -898,7 +967,8 @@
       "name": "Detect Poison and Disease",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "knowledge",
@@ -912,7 +982,8 @@
       "name": "Detect Poison and Disease",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "knowledge",
@@ -926,7 +997,8 @@
       "name": "Dispel Evil and Good",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -939,7 +1011,8 @@
       "name": "Dispel Magic",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -951,7 +1024,8 @@
       "name": "Dispel Magic",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -963,7 +1037,8 @@
       "name": "Divination",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -976,7 +1051,8 @@
       "name": "Divination",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -989,7 +1065,8 @@
       "name": "Divine Word",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "control"
@@ -1001,7 +1078,8 @@
       "name": "Earthquake",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1014,7 +1092,8 @@
       "name": "Earthquake",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1027,7 +1106,8 @@
       "name": "Enhance Ability",
       "kind": "spell",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 70
       },
       "tags": [
         "buff",
@@ -1040,7 +1120,8 @@
       "name": "Enhance Ability",
       "kind": "spell",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 70
       },
       "tags": [
         "buff",
@@ -1053,7 +1134,8 @@
       "name": "Etherealness",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -1065,7 +1147,8 @@
       "name": "Etherealness",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 30
       },
       "tags": [
         "movement"
@@ -1077,7 +1160,8 @@
       "name": "Feign Death",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1090,7 +1174,8 @@
       "name": "Feign Death",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1103,7 +1188,8 @@
       "name": "Find the Path",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -1116,7 +1202,8 @@
       "name": "Find the Path",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -1129,7 +1216,8 @@
       "name": "Find Traps",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge"
@@ -1141,7 +1229,8 @@
       "name": "Find Traps",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge"
@@ -1153,7 +1242,8 @@
       "name": "Fire Storm",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1165,7 +1255,8 @@
       "name": "Fire Storm",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1177,7 +1268,8 @@
       "name": "Flame Strike",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1189,7 +1281,8 @@
       "name": "Forbiddance",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive",
@@ -1202,7 +1295,8 @@
       "name": "Freedom of Movement",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1214,7 +1308,8 @@
       "name": "Freedom of Movement",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1226,7 +1321,8 @@
       "name": "Gate",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1239,7 +1335,8 @@
       "name": "Gate",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1252,7 +1349,8 @@
       "name": "Gentle Repose",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1265,7 +1363,8 @@
       "name": "Gentle Repose",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -1278,7 +1377,8 @@
       "name": "Glyph of Warding",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1290,7 +1390,8 @@
       "name": "Glyph of Warding",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1302,7 +1403,8 @@
       "name": "Greater Restoration",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1314,7 +1416,8 @@
       "name": "Greater Restoration",
       "kind": "spell",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1326,7 +1429,8 @@
       "name": "Guardian of Faith",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1338,7 +1442,8 @@
       "name": "Guardian of Faith",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1350,7 +1455,8 @@
       "name": "Guidance",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 90
       },
       "tags": [
         "buff",
@@ -1363,7 +1469,8 @@
       "name": "Guidance",
       "kind": "spell",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 90
       },
       "tags": [
         "buff",
@@ -1376,7 +1483,8 @@
       "name": "Guiding Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1388,7 +1496,8 @@
       "name": "Guiding Bolt",
       "kind": "spell",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1400,7 +1509,8 @@
       "name": "Hallow",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -1412,7 +1522,8 @@
       "name": "Harm",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1424,7 +1535,8 @@
       "name": "Heal",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "heal"
@@ -1436,7 +1548,8 @@
       "name": "Heal",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": 30
       },
       "tags": [
         "heal"
@@ -1448,7 +1561,8 @@
       "name": "Healing Word",
       "kind": "spell",
       "modes": {
-        "combat": 78
+        "combat": 78,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1461,7 +1575,8 @@
       "name": "Healing Word",
       "kind": "spell",
       "modes": {
-        "combat": 78
+        "combat": 78,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1474,7 +1589,8 @@
       "name": "Heroes' Feast",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "buff"
@@ -1486,7 +1602,8 @@
       "name": "Heroes' Feast",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "buff"
@@ -1498,7 +1615,8 @@
       "name": "Hold Person",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1511,7 +1629,8 @@
       "name": "Hold Person",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "control",
@@ -1524,7 +1643,8 @@
       "name": "Holy Aura",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1538,7 +1658,8 @@
       "name": "Holy Weapon",
       "kind": "spell",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -1551,7 +1672,8 @@
       "name": "Inflict Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1563,7 +1685,8 @@
       "name": "Inflict Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -1575,7 +1698,8 @@
       "name": "Insect Plague",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1589,7 +1713,8 @@
       "name": "Insect Plague",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -1603,7 +1728,8 @@
       "name": "Legend Lore",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge"
@@ -1615,7 +1741,8 @@
       "name": "Legend Lore",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge"
@@ -1627,7 +1754,8 @@
       "name": "Lesser Restoration",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1639,7 +1767,8 @@
       "name": "Lesser Restoration",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -1651,7 +1780,8 @@
       "name": "Light",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 90
       },
       "tags": [
         "utility"
@@ -1663,7 +1793,8 @@
       "name": "Light",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 90
       },
       "tags": [
         "utility"
@@ -1675,7 +1806,8 @@
       "name": "Locate Creature",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -1688,7 +1820,8 @@
       "name": "Locate Creature",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -1701,7 +1834,8 @@
       "name": "Locate Object",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -1714,7 +1848,8 @@
       "name": "Locate Object",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge",
@@ -1727,7 +1862,8 @@
       "name": "Magic Circle",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -1739,7 +1875,8 @@
       "name": "Magic Circle",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -1751,7 +1888,8 @@
       "name": "Mass Cure Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "heal"
@@ -1763,7 +1901,8 @@
       "name": "Mass Cure Wounds",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "tags": [
         "heal"
@@ -1775,7 +1914,8 @@
       "name": "Mass Heal",
       "kind": "spell",
       "modes": {
-        "combat": 70
+        "combat": 70,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1787,7 +1927,8 @@
       "name": "Mass Healing Word",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1799,7 +1940,8 @@
       "name": "Mass Healing Word",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1811,7 +1953,8 @@
       "name": "Meld into Stone",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -1824,7 +1967,8 @@
       "name": "Meld into Stone",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "utility",
@@ -1837,7 +1981,8 @@
       "name": "Mending",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -1849,7 +1994,8 @@
       "name": "Mending",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -1861,7 +2007,8 @@
       "name": "Planar Ally",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1873,7 +2020,8 @@
       "name": "Planar Binding",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1885,7 +2033,8 @@
       "name": "Planar Binding",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -1897,7 +2046,8 @@
       "name": "Plane Shift",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": 50
       },
       "tags": [
         "control"
@@ -1909,7 +2059,8 @@
       "name": "Plane Shift",
       "kind": "spell",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": 50
       },
       "tags": [
         "control"
@@ -1921,7 +2072,8 @@
       "name": "Power Word Fortify",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1933,7 +2085,8 @@
       "name": "Power Word Heal",
       "kind": "spell",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -1945,7 +2098,8 @@
       "name": "Prayer of Healing",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "heal"
@@ -1958,7 +2112,8 @@
       "name": "Prayer of Healing",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "heal"
@@ -1971,7 +2126,8 @@
       "name": "Protection from Energy",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -1984,7 +2140,8 @@
       "name": "Protection from Energy",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -1997,7 +2154,8 @@
       "name": "Protection from Evil and Good",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -2010,7 +2168,8 @@
       "name": "Protection from Evil and Good",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -2023,7 +2182,8 @@
       "name": "Protection from Poison",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2035,7 +2195,8 @@
       "name": "Protection from Poison",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2047,7 +2208,8 @@
       "name": "Purify Food and Drink",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2060,7 +2222,8 @@
       "name": "Purify Food and Drink",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility",
@@ -2073,7 +2236,8 @@
       "name": "Raise Dead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -2085,7 +2249,8 @@
       "name": "Regenerate",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -2097,7 +2262,8 @@
       "name": "Regenerate",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -2109,7 +2275,8 @@
       "name": "Remove Curse",
       "kind": "spell",
       "modes": {
-        "combat": 15
+        "combat": 15,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2121,7 +2288,8 @@
       "name": "Remove Curse",
       "kind": "spell",
       "modes": {
-        "combat": 15
+        "combat": 15,
+        "explore": 50
       },
       "tags": [
         "utility"
@@ -2133,7 +2301,8 @@
       "name": "Resurrection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -2145,7 +2314,8 @@
       "name": "Revivify",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -2158,7 +2328,8 @@
       "name": "Revivify",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": 50
       },
       "tags": [
         "heal"
@@ -2171,7 +2342,8 @@
       "name": "Sacred Flame",
       "kind": "spell",
       "modes": {
-        "combat": 85
+        "combat": 85,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2184,7 +2356,8 @@
       "name": "Sanctuary",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2196,7 +2369,8 @@
       "name": "Sanctuary",
       "kind": "spell",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2208,7 +2382,8 @@
       "name": "Scrying",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -2221,7 +2396,8 @@
       "name": "Scrying",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "knowledge",
@@ -2234,7 +2410,8 @@
       "name": "Sending",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2246,7 +2423,8 @@
       "name": "Sending",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2258,7 +2436,8 @@
       "name": "Shield of Faith",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -2271,7 +2450,8 @@
       "name": "Shield of Faith",
       "kind": "spell",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "tags": [
         "defensive",
@@ -2284,7 +2464,8 @@
       "name": "Silence",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -2298,7 +2479,8 @@
       "name": "Silence",
       "kind": "spell",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "tags": [
         "control",
@@ -2312,7 +2494,8 @@
       "name": "Speak with Dead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge"
@@ -2324,7 +2507,8 @@
       "name": "Speak with Dead",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "knowledge"
@@ -2336,7 +2520,8 @@
       "name": "Spirit Guardians",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2351,7 +2536,8 @@
       "name": "Spirit Guardians",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2366,7 +2552,8 @@
       "name": "Spirit Shroud",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "buff",
@@ -2379,7 +2566,8 @@
       "name": "Spiritual Weapon",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2392,7 +2580,8 @@
       "name": "Spiritual Weapon",
       "kind": "spell",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2406,7 +2595,8 @@
       "name": "Stone Shape",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -2418,7 +2608,8 @@
       "name": "Stone Shape",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -2430,7 +2621,8 @@
       "name": "Summon Celestial",
       "kind": "spell",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "tags": [
         "attack",
@@ -2443,7 +2635,8 @@
       "name": "Symbol",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2455,7 +2648,8 @@
       "name": "Symbol",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "utility"
@@ -2467,7 +2661,8 @@
       "name": "Temple of the Gods",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 30
       },
       "tags": [
         "defensive"
@@ -2479,7 +2674,8 @@
       "name": "Thaumaturgy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -2491,7 +2687,8 @@
       "name": "Thaumaturgy",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "utility"
@@ -2503,7 +2700,8 @@
       "name": "Toll the Dead",
       "kind": "spell",
       "modes": {
-        "combat": 88
+        "combat": 88,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2516,7 +2714,8 @@
       "name": "Toll the Dead",
       "kind": "spell",
       "modes": {
-        "combat": 88
+        "combat": 88,
+        "explore": null
       },
       "tags": [
         "attack"
@@ -2529,7 +2728,8 @@
       "name": "Tongues",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2541,7 +2741,8 @@
       "name": "Tongues",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2553,7 +2754,8 @@
       "name": "True Resurrection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -2565,7 +2767,8 @@
       "name": "True Resurrection",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "tags": [
         "heal"
@@ -2577,7 +2780,8 @@
       "name": "Warding Bond",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2590,7 +2794,8 @@
       "name": "Warding Bond",
       "kind": "spell",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "tags": [
         "defensive"
@@ -2603,7 +2808,8 @@
       "name": "Water Walk",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement",
@@ -2616,7 +2822,8 @@
       "name": "Water Walk",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement",
@@ -2629,7 +2836,8 @@
       "name": "Word of Recall",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "tags": [
         "movement"
@@ -2641,7 +2849,8 @@
       "name": "Zone of Truth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"
@@ -2653,7 +2862,8 @@
       "name": "Zone of Truth",
       "kind": "spell",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "tags": [
         "social"

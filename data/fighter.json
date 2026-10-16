@@ -8,7 +8,8 @@
       "name": "Action Surge",
       "kind": "action",
       "modes": {
-        "combat": 90
+        "combat": 90,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -23,7 +24,8 @@
       "name": "Extra Attack",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -37,7 +39,8 @@
       "name": "Fighting Style: Protection",
       "kind": "action",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "action": "reaction",
       "tags": [
@@ -50,7 +53,8 @@
       "name": "Indomitable",
       "kind": "action",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -64,7 +68,8 @@
       "name": "Know Your Enemy",
       "kind": "action",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": 30
       },
       "action": "bonus",
       "tags": [
@@ -78,7 +83,8 @@
       "name": "Maneuver: Ambush",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 50
       },
       "action": "none",
       "tags": [
@@ -93,7 +99,8 @@
       "name": "Maneuver: Bait and Switch",
       "kind": "action",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -108,7 +115,8 @@
       "name": "Maneuver: Commander’s Strike",
       "kind": "action",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -123,7 +131,8 @@
       "name": "Maneuver: Commanding Presence",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": 70
       },
       "action": "none",
       "tags": [
@@ -137,7 +146,8 @@
       "name": "Maneuver: Disarming Attack (Dex.)",
       "kind": "action",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -155,7 +165,8 @@
       "name": "Maneuver: Disarming Attack (Str.)",
       "kind": "action",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -173,7 +184,8 @@
       "name": "Maneuver: Distracting Strike",
       "kind": "action",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -192,7 +204,8 @@
       "name": "Maneuver: Evasive Footwork",
       "kind": "action",
       "modes": {
-        "combat": 45
+        "combat": 45,
+        "explore": null
       },
       "action": "bonus",
       "tags": [
@@ -207,7 +220,8 @@
       "name": "Maneuver: Feinting Attack",
       "kind": "action",
       "modes": {
-        "combat": 60
+        "combat": 60,
+        "explore": null
       },
       "action": "bonus",
       "tags": [
@@ -221,7 +235,8 @@
       "name": "Maneuver: Goading Attack (Dex.)",
       "kind": "action",
       "modes": {
-        "combat": 58
+        "combat": 58,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -239,7 +254,8 @@
       "name": "Maneuver: Goading Attack (Str.)",
       "kind": "action",
       "modes": {
-        "combat": 58
+        "combat": 58,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -257,7 +273,8 @@
       "name": "Relentless",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -270,7 +287,8 @@
       "name": "Second Wind",
       "kind": "action",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": 30
       },
       "action": "bonus",
       "tags": [
@@ -284,7 +302,8 @@
       "name": "Second Wind: Tactical Shift",
       "kind": "action",
       "modes": {
-        "combat": 40
+        "combat": 40,
+        "explore": null
       },
       "action": "bonus",
       "tags": [
@@ -298,7 +317,8 @@
       "name": "Studied Attacks",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -311,7 +331,8 @@
       "name": "Superiority Dice",
       "kind": "action",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -325,7 +346,8 @@
       "name": "Tactical Master",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -338,7 +360,8 @@
       "name": "Tactical Master: Push",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -351,7 +374,8 @@
       "name": "Tactical Master: Sap",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -364,7 +388,8 @@
       "name": "Tactical Master: Slow",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -377,7 +402,8 @@
       "name": "Tactical Mind",
       "kind": "action",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": 70
       },
       "action": "free",
       "tags": [

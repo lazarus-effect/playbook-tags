@@ -8,7 +8,8 @@
       "name": "Cunning Action",
       "kind": "action",
       "modes": {
-        "combat": 75
+        "combat": 75,
+        "explore": 30
       },
       "action": "bonus",
       "tags": [
@@ -21,7 +22,8 @@
       "name": "Reliable Talent",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "none",
       "tags": [
@@ -34,7 +36,8 @@
       "name": "Sneak Attack",
       "kind": "action",
       "modes": {
-        "combat": 65
+        "combat": 65,
+        "explore": null
       },
       "action": "free",
       "tags": [
@@ -53,7 +56,8 @@
       "name": "Steady Aim",
       "kind": "action",
       "modes": {
-        "combat": 50
+        "combat": 50,
+        "explore": null
       },
       "action": "bonus",
       "tags": [
@@ -66,7 +70,8 @@
       "name": "Uncanny Dodge",
       "kind": "action",
       "modes": {
-        "combat": 80
+        "combat": 80,
+        "explore": null
       },
       "action": "reaction",
       "tags": [

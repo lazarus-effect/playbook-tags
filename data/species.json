@@ -8,7 +8,8 @@
       "name": "Fire’s Burn (Fire Giant)",
       "kind": "action",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "action": "free",
       "recharge": "long",
@@ -29,7 +30,8 @@
       "name": "Frost’s Chill (Frost Giant)",
       "kind": "action",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "action": "free",
       "recharge": "long",
@@ -51,7 +53,8 @@
       "name": "Hill’s Tumble (Hill Giant)",
       "kind": "action",
       "modes": {
-        "combat": 55
+        "combat": 55,
+        "explore": null
       },
       "action": "free",
       "recharge": "long",

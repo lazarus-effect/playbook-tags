@@ -8,7 +8,8 @@
       "name": "Dash",
       "kind": "action",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -21,7 +22,8 @@
       "name": "Disengage",
       "kind": "action",
       "modes": {
-        "combat": 30
+        "combat": 30,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -35,7 +37,8 @@
       "name": "Dodge",
       "kind": "action",
       "modes": {
-        "combat": 35
+        "combat": 35,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -49,7 +52,8 @@
       "name": "Grapple",
       "kind": "action",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -62,7 +66,8 @@
       "name": "Help",
       "kind": "action",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": 50
       },
       "action": "action",
       "tags": [
@@ -89,7 +94,8 @@
       "name": "Improvised Weapon",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -103,7 +109,8 @@
       "name": "Ready",
       "kind": "action",
       "modes": {
-        "combat": 20
+        "combat": 20,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -130,7 +137,8 @@
       "name": "Shove",
       "kind": "action",
       "modes": {
-        "combat": 25
+        "combat": 25,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -143,7 +151,8 @@
       "name": "Unarmed Strike",
       "kind": "action",
       "modes": {
-        "combat": null
+        "combat": null,
+        "explore": null
       },
       "action": "action",
       "tags": [
@@ -157,7 +166,8 @@
       "name": "Use an Object",
       "kind": "action",
       "modes": {
-        "combat": 15
+        "combat": 15,
+        "explore": 30
       },
       "action": "action",
       "tags": [
