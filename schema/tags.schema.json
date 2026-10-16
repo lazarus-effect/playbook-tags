@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/lazarus-effect/playbook-tags/schema/tags.schema.json",
-  "title": "Playbook tag database v0",
+  "title": "Playbook tag database v1",
   "description": "Playbook's opinions about what each spell, feature, action, and item is FOR at the table. Metadata only: ids, names, and Playbook opinions. No rules text, descriptions, or any other publisher content.",
   "type": "object",
   "required": ["schemaVersion", "entries"],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": { "const": 0 },
+    "schemaVersion": { "const": 1 },
     "name": { "type": "string", "maxLength": 80 },
     "description": { "type": "string", "maxLength": 300 },
     "entries": {
@@ -27,16 +27,26 @@
         "kind": { "enum": ["spell", "action", "item", "feature"] },
         "modes": {
           "type": "object",
-          "description": "Priority 0-100 per mode; null means the drawer in that mode. Explore is Phase 2 but may be filled in early.",
+          "description": "Priority 0-100 per mode; null means the drawer in that mode. A mode left out is ranked by Playbook's heuristics.",
           "additionalProperties": false,
           "required": ["combat"],
           "properties": {
             "combat": { "$ref": "#/$defs/priority" },
-            "explore": { "$ref": "#/$defs/priority" }
+            "explore": { "$ref": "#/$defs/priority" },
+            "rest": { "$ref": "#/$defs/priority" }
           }
         },
         "action": { "enum": ["action", "bonus", "reaction", "free", "none"] },
         "recharge": { "enum": ["short", "long", "dawn", "charges", "none"] },
+        "rest": {
+          "type": "object",
+          "description": "Rest view (PRD 7.3): how much spending this resource pushes the rest gauges. Overrides the class archetype's preset for this one resource (data/archetypes.json).",
+          "additionalProperties": false,
+          "required": ["weight"],
+          "properties": {
+            "weight": { "enum": ["ignore", "low", "normal", "high", "critical"] }
+          }
+        },
         "tags": {
           "type": "array",
           "uniqueItems": true,

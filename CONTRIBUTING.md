@@ -45,6 +45,23 @@ The number is "how much room does this deserve on a phone-sized screen, mid-figh
 Two rules of thumb: **cost matters** (a bonus action that doesn't use concentration beats an action
 that does), and **nothing is ever removed** — `null` means "in the drawer", not "gone".
 
+## How to pick `modes.explore`
+
+The number is "how much room does this deserve when the party is talking, travelling, or searching":
+anything that isn't a fight or a rest. Explore's utility rail shows non-attack spells and activated
+features; attacks don't belong there.
+
+| Range | Means | Typical |
+|---|---|---|
+| 85–100 | Used most scenes outside a fight | Guidance, Detect Magic |
+| 60–84 | Strong when the situation comes up | Speak with Dead, Disguise Self, Divine Sense |
+| 30–59 | Occasionally right | Mage Hand, Light, a ribbon feature with a real use |
+| 1–29 | Rarely right, but don't hide it | Niche utility |
+| `null` | Drawer in Explore | Attacks, reactions that only matter in a fight, passives |
+
+Rule of thumb: **rituals rank high** (they cost no slot when there's time), and a feature with a
+limited use ranks by how often a table actually spends it out of combat.
+
 ## Tags
 
 Use as many as fit, but be honest: `attack` is for things that roll against a target or force a save

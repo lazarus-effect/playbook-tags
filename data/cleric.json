@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "name": "Cleric",
   "description": "Cleric class features and the cleric spell list, 2014 and 2024 ids. A spell on several lists lives in the first of cleric, warlock, wizard.",
   "entries": [

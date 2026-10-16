@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "name": "Rogue",
   "description": "Rogue class features. Arcane Trickster spells are in wizard.json.",
   "entries": [

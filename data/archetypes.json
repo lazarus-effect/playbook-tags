@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "name": "Rest archetypes",
+  "description": "Rest-weight presets per class (PRD 7.3). A starting point the player tunes; outliers are mapped by subclass.",
+  "archetypes": [
+    {
+      "id": "slot-caster",
+      "name": "Slot caster",
+      "weights": {
+        "hp": "high",
+        "hitDice": "low",
+        "slots": "critical",
+        "pactSlots": "ignore",
+        "shortFeatures": "normal",
+        "longFeatures": "high",
+        "itemCharges": "low"
+      },
+      "note": "Lives on spell slots, which only come back on a long rest."
+    },
+    {
+      "id": "short-rest-caster",
+      "name": "Short-rest caster",
+      "weights": {
+        "hp": "high",
+        "hitDice": "normal",
+        "slots": "normal",
+        "pactSlots": "critical",
+        "shortFeatures": "high",
+        "longFeatures": "normal",
+        "itemCharges": "low"
+      },
+      "note": "Pact slots refill on a short rest, so a short rest is worth a lot."
+    },
+    {
+      "id": "martial-per-rest",
+      "name": "Martial with per-rest features",
+      "weights": {
+        "hp": "critical",
+        "hitDice": "high",
+        "slots": "low",
+        "pactSlots": "ignore",
+        "shortFeatures": "critical",
+        "longFeatures": "normal",
+        "itemCharges": "low"
+      },
+      "note": "Hit points and short-rest features carry the fight."
+    },
+    {
+      "id": "half-caster",
+      "name": "Half-caster",
+      "weights": {
+        "hp": "critical",
+        "hitDice": "normal",
+        "slots": "high",
+        "pactSlots": "ignore",
+        "shortFeatures": "normal",
+        "longFeatures": "high",
+        "itemCharges": "low"
+      },
+      "note": "Front-liner whose slots still matter."
+    },
+    {
+      "id": "resourceless-martial",
+      "name": "Resourceless martial",
+      "weights": {
+        "hp": "critical",
+        "hitDice": "high",
+        "slots": "low",
+        "pactSlots": "ignore",
+        "shortFeatures": "normal",
+        "longFeatures": "normal",
+        "itemCharges": "low"
+      },
+      "note": "Few per-rest features: hit points are the gauge."
+    }
+  ],
+  "classes": [
+    {
+      "name": "Artificer",
+      "archetype": "half-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Barbarian",
+      "archetype": "martial-per-rest",
+      "source": "hand"
+    },
+    {
+      "name": "Bard",
+      "archetype": "slot-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Cleric",
+      "archetype": "slot-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Druid",
+      "archetype": "slot-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Fighter",
+      "archetype": "martial-per-rest",
+      "source": "hand"
+    },
+    {
+      "name": "Monk",
+      "archetype": "martial-per-rest",
+      "source": "hand"
+    },
+    {
+      "name": "Paladin",
+      "archetype": "half-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Ranger",
+      "archetype": "half-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Rogue",
+      "archetype": "resourceless-martial",
+      "source": "hand"
+    },
+    {
+      "name": "Sorcerer",
+      "archetype": "slot-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Warlock",
+      "archetype": "short-rest-caster",
+      "source": "hand"
+    },
+    {
+      "name": "Wizard",
+      "archetype": "slot-caster",
+      "source": "hand"
+    }
+  ],
+  "subclasses": [
+    {
+      "name": "Eldritch Knight",
+      "archetype": "half-caster",
+      "note": "A fighter whose slots matter.",
+      "source": "hand"
+    },
+    {
+      "name": "Arcane Trickster",
+      "archetype": "half-caster",
+      "note": "A rogue whose slots matter.",
+      "source": "hand"
+    }
+  ]
+}

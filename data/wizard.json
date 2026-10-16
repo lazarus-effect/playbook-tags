@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "name": "Wizard",
   "description": "Wizard class features and wizard-list spells not already in cleric.json or warlock.json, 2014 and 2024 ids.",
   "entries": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "name": "Common actions",
   "description": "Actions every character has. Priorities are deliberately low: they are never the interesting choice, but they must stay reachable.",
   "entries": [

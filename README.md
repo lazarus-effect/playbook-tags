@@ -21,9 +21,11 @@ it belongs in a `note` written in your own words, or nowhere.
 ## Layout
 
 ```
-schema/tags.schema.json   the schema (v0)
-validate.mjs              the validator — zero dependencies, same command CI runs
-data/*.json               the tags, one file per class or theme
+schema/tags.schema.json        the tag schema (v1)
+schema/archetypes.schema.json  the rest-archetype schema (v1)
+validate.mjs                   the validator — zero dependencies, same command CI runs
+data/*.json                    the tags, one file per class or theme
+data/archetypes.json           which rest-weight preset each class starts from
 ```
 
 ## An entry
@@ -42,12 +44,24 @@ data/*.json               the tags, one file per class or theme
 ```
 
 - `modes.combat` — 0–100, how much room it deserves in combat. `null` means the drawer.
+- `modes.explore`, `modes.rest` — the same for Explore and Rest. Optional: a mode left out is ranked
+  by Playbook's heuristics.
 - `action` — `action` · `bonus` · `reaction` · `free` · `none`.
 - `recharge` — `short` · `long` · `dawn` · `charges` · `none`.
+- `rest.weight` — optional: `ignore` · `low` · `normal` · `high` · `critical`. How much spending this
+  resource pushes the rest gauges, when it should differ from its class archetype's preset.
 - `tags` — attack, control, buff, heal, utility, defensive, movement, social, knowledge, ritual,
   concentration, passive, limited-use, rider, toggle.
 - `source` — `hand`, `heuristic`, or `llm` (drafted with an LLM, awaiting review). Informational: any
   entry in this repo wins over Playbook's runtime heuristics.
+
+## Rest archetypes
+
+`data/archetypes.json` names five presets (slot caster, short-rest caster, martial with per-rest
+features, half-caster, resourceless martial). Each gives a weight to seven kinds of resource: hit
+points, hit dice, spell slots, pact slots, short-rest features, long-rest features, item charges.
+Classes and outlier subclasses are mapped to a preset by the name DDB shows. Players tune the weights
+for their own character; these are only where they start.
 
 ## Releases
 

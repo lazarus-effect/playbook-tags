@@ -8,21 +8,25 @@
 // Checks the schema (a small subset of JSON Schema, enough for this file), plus the rules a schema
 // can't express: unique keys within a file, no duplicate keys across files, toggle/rider only when
 // tagged, and the content rule — entries carry ids, names, and opinions, never rules text.
+// `data/archetypes.json` (rest-weight presets per class) has its own schema and rules.
 
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-const SCHEMA = JSON.parse(readFileSync(new URL('./schema/tags.schema.json', import.meta.url), 'utf8'));
+const loadSchema = (name) => JSON.parse(readFileSync(new URL(`./schema/${name}`, import.meta.url), 'utf8'));
+const SCHEMA = loadSchema('tags.schema.json');
+const ARCHETYPES_SCHEMA = loadSchema('archetypes.schema.json');
+const isArchetypes = (file) => file.endsWith('archetypes.json');
 const root = new URL('.', import.meta.url).pathname;
 
 const errors = [];
 const fail = (file, path, message) => errors.push(`${file}${path ? ` ${path}` : ''}: ${message}`);
 
-/** Resolve a local $ref against the schema document. */
-function deref(node) {
+/** Resolve a local $ref against the schema document being checked. */
+function deref(node, root) {
   if (!node || typeof node !== 'object' || !node.$ref) return node;
   const parts = node.$ref.replace(/^#\//, '').split('/');
-  return parts.reduce((acc, part) => acc?.[part], SCHEMA);
+  return parts.reduce((acc, part) => acc?.[part], root);
 }
 
 const typeOf = (v) => (v === null ? 'null' : Array.isArray(v) ? 'array' : typeof v === 'number' && Number.isInteger(v) ? 'integer' : typeof v);
@@ -34,8 +38,8 @@ const typeOk = (v, type) => {
 
 /** The subset of JSON Schema this file uses: type, const, enum, required, additionalProperties,
  *  properties, items, minimum/maximum, minLength/maxLength, pattern, minItems, uniqueItems, $ref. */
-function check(value, schemaNode, file, path) {
-  const schema = deref(schemaNode);
+function check(value, schemaNode, file, path, root = SCHEMA) {
+  const schema = deref(schemaNode, root);
   if (!schema) return;
   if ('const' in schema && value !== schema.const) return fail(file, path, `must be ${JSON.stringify(schema.const)}`);
   if (schema.enum && !schema.enum.includes(value)) return fail(file, path, `must be one of: ${schema.enum.join(', ')} (got ${JSON.stringify(value)})`);
@@ -53,7 +57,7 @@ function check(value, schemaNode, file, path) {
   if (Array.isArray(value)) {
     if (schema.minItems !== undefined && value.length < schema.minItems) fail(file, path, `needs at least ${schema.minItems} item(s)`);
     if (schema.uniqueItems && new Set(value.map((v) => JSON.stringify(v))).size !== value.length) fail(file, path, 'has duplicate items');
-    if (schema.items) value.forEach((v, i) => check(v, schema.items, file, `${path}[${i}]`));
+    if (schema.items) value.forEach((v, i) => check(v, schema.items, file, `${path}[${i}]`, root));
   }
   if (value && typeof value === 'object' && !Array.isArray(value)) {
     for (const key of schema.required ?? []) if (!(key in value)) fail(file, path, `missing "${key}"`);
@@ -63,7 +67,7 @@ function check(value, schemaNode, file, path) {
         if (schema.additionalProperties === false) fail(file, `${path}.${key}`, 'is not a field in the schema');
         continue;
       }
-      check(v, sub, file, `${path}.${key}`);
+      check(v, sub, file, `${path}.${key}`, root);
     }
   }
 }
@@ -89,6 +93,31 @@ function checkEntryRules(entry, file, path) {
 const nameKey = (name) => name.normalize('NFKC').replace(/[\u2018\u2019\u02BC\u0060\u00B4]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
 const keyOf = (entry) => (entry.definitionId ? `${entry.kind}:${entry.definitionId}` : `${entry.kind}:name:${nameKey(entry.name)}`);
 
+/** archetypes.json: ids unique, every mapping names a real archetype, a class or subclass mapped once. */
+function validateArchetypes(parsed, file) {
+  check(parsed, ARCHETYPES_SCHEMA, file, '', ARCHETYPES_SCHEMA);
+  const ids = new Set();
+  for (const [i, a] of (parsed.archetypes ?? []).entries()) {
+    if (!a || typeof a.id !== 'string') continue;
+    if (ids.has(a.id)) fail(file, `archetypes[${i}]`, `duplicate archetype id "${a.id}"`);
+    ids.add(a.id);
+    if (a.note && RULES_TEXT.test(a.note)) fail(file, `archetypes[${i}]`, 'note reads like rules text — say why Playbook weights it this way instead');
+  }
+  for (const list of ['classes', 'subclasses']) {
+    const seen = new Map();
+    for (const [i, m] of (parsed[list] ?? []).entries()) {
+      if (!m || typeof m.name !== 'string') continue;
+      const path = `${list}[${i}]`;
+      if (typeof m.archetype === 'string' && !ids.has(m.archetype)) fail(file, path, `archetype "${m.archetype}" is not defined in this file`);
+      const key = nameKey(m.name);
+      if (seen.has(key)) fail(file, path, `"${m.name}" is already mapped (${seen.get(key)})`);
+      else seen.set(key, path);
+      if (m.note && RULES_TEXT.test(m.note)) fail(file, path, 'note reads like rules text — say why Playbook weights it this way instead');
+    }
+  }
+  return (parsed.classes?.length ?? 0) + (parsed.subclasses?.length ?? 0);
+}
+
 function validateFile(file, seenAcrossFiles) {
   let parsed;
   try {
@@ -96,6 +125,7 @@ function validateFile(file, seenAcrossFiles) {
   } catch (e) {
     return fail(file, '', `is not valid JSON — ${e.message}`);
   }
+  if (isArchetypes(file)) { validateArchetypes(parsed, file); return 0; }
   check(parsed, SCHEMA, file, '');
   const seenHere = new Map();
   for (const [i, entry] of (parsed.entries ?? []).entries()) {

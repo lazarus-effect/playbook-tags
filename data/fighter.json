@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "name": "Fighter",
   "description": "Fighter class features, 2014 and 2024, including the Battle Master maneuvers found on a captured character. Weapon mastery actions are not tagged yet.",
   "entries": [

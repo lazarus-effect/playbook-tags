@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lazarus-effect/playbook-tags/schema/archetypes.schema.json",
+  "title": "Playbook rest archetypes v1",
+  "description": "Which rest-weight preset each class starts from (PRD 7.3, 9.2). The rest gauges weight spent resources by these; players tune them per character. Names and Playbook opinions only.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "archetypes",
+    "classes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "archetypes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/archetype"
+      }
+    },
+    "classes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mapping"
+      }
+    },
+    "subclasses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mapping"
+      }
+    }
+  },
+  "$defs": {
+    "weight": {
+      "description": "How much a spent resource of this kind pushes the rest gauges.",
+      "enum": [
+        "ignore",
+        "low",
+        "normal",
+        "high",
+        "critical"
+      ]
+    },
+    "archetype": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "weights"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "maxLength": 40
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "weights": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "hp",
+            "hitDice",
+            "slots",
+            "pactSlots",
+            "shortFeatures",
+            "longFeatures",
+            "itemCharges"
+          ],
+          "properties": {
+            "hp": {
+              "$ref": "#/$defs/weight"
+            },
+            "hitDice": {
+              "$ref": "#/$defs/weight"
+            },
+            "slots": {
+              "$ref": "#/$defs/weight"
+            },
+            "pactSlots": {
+              "$ref": "#/$defs/weight"
+            },
+            "shortFeatures": {
+              "$ref": "#/$defs/weight"
+            },
+            "longFeatures": {
+              "$ref": "#/$defs/weight"
+            },
+            "itemCharges": {
+              "$ref": "#/$defs/weight"
+            }
+          }
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 200
+        }
+      }
+    },
+    "mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "archetype"
+      ],
+      "description": "Keyed by the name DDB shows (2014 and 2024 classes share a name but not an id).",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "archetype": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "source": {
+          "enum": [
+            "hand",
+            "heuristic",
+            "llm"
+          ]
+        }
+      }
+    }
+  }
+}
